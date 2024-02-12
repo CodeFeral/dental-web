@@ -1,4 +1,4 @@
-import Service from "./components/Service";
+import ServicesGroup from "./components/ServicesGroup";
 
 import "./styles/reset.css";
 import "./styles/style.css";
@@ -6,7 +6,7 @@ import "./styles/style.css";
 function App() {
   return (
     <>
-      <Service />
+      <ServicesGroup />
     </>
   );
 }
