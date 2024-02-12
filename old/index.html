@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+
+  
+
+<head>
+  <!-- en, Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
+    rel="stylesheet" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:image" content="https://www.bagdatov.com/georgi.png" />
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="./styles/core/reset.css" />
+  <link rel="stylesheet" href="./styles/core/style.css" />
+
+  <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./styles/navigation.css" />
+  <link rel="stylesheet" href="./styles/languages.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+
+  <link rel="stylesheet" href="./styles/contact.css" />
+  <link rel="stylesheet" href="./styles/form.css" />
+  <link rel="stylesheet" href="./styles/info.css" />
+  <link rel="stylesheet" href="./styles/maps.css" />
+
+  <!--  -->
+  <link rel="stylesheet" href="./styles/services.css" />
+  <link rel="stylesheet" href="./styles/reviews.css" />
+  <link rel="stylesheet" href="./styles/certificates.css" />
+  <link rel="stylesheet" href="./styles/landing.css" />
+  <link rel="stylesheet" href="./styles/about.css" />
+
+  <link rel="stylesheet" href="./styles/swiper-reviews.css" />
+
+  <title>Bagdatov</title>
+</head>
+
+<body>
+  <!------------- NAVIGATION ------------->
+  <nav>
+    <div class="navigation_blackout">.</div>
+
+    <div class="navigation_container">
+      <ul class="navigation_links">
+        <li><a href="#landing-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#services-section">Services</a></li>
+        <li><a href="#reviews-section">Reviews</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+
+      <div class="navigation_menu-icon">
+        <div class="navigation_menu-icon_bar"></div>
+        <div class="navigation_menu-icon_bar"></div>
+        <div class="navigation_menu-icon_bar"></div>
+      </div>
+
+      <div class="languages">
+        <div class="languages_button">
+          <a href="#">
+            <img src="/flag_bg.svg" alt="Bulgarian" />
+          </a>
+        </div>
+        <div class="languages_button">
+          <a href="#">
+            <img src="/flag_uk.svg" alt="English" />
+          </a>
+        </div>
+      </div>
+
+      <!-- color pick -->
+      <div class="colorpickers">
+        <input type="color" id="input-color-primary" value="#ffffff" />
+        <input type="color" id="input-color-light" value="#ffffff" />
+        <input type="color" id="input-color-dark" value="#ffffff" />
+        <script src="./scripts/color-picker.js" type="module"></script>
+      </div>
+    </div>
+  </nav>
+  <script src="./scripts/navbar.js" type="module"></script>
+
+  <div class="content">
+    <!------------- LANDING ------------->
+    <section id="landing-section">
+      <div class="landing-canvas_container">
+        <canvas id="landing-canvas"></canvas>
+      </div>
+
+      <script src="./scripts/landing-visual.js" type="module"></script>
+
+      <div class="landing_container">
+        <div class="intro_container">
+          <h1 class="intro_title">
+            <span class="change-font-size">G</span>eorgi
+            <span class="change-font-size">B</span>agdatov
+            <!-- <span class="change-font-size">Г</span>еорги <span class="change-font-size">Б</span>агдатов -->
+          </h1>
+
+          <h2 class="intro_text">Devoted to dental excellence.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!------------- ABOUT ------------->
+    <section id="about-section">
+      <div class="about_container">
+        <div class="about_portrait">
+          <img src="/georgi-transparent.png" alt="Georgi" />
+        </div>
+
+        <div class="about_text_container">
+          <div class="about_text">
+            <li>
+              <h3>Professional Dental Expertise</h3>
+              <p>
+                Rooted in a legacy of dental excellence, Dr. Bagdatov upholds
+                the tradition of quality dental care pioneered by his father.
+                His practice skillfully combines time-honored methods with
+                contemporary dental techniques.
+              </p>
+            </li>
+
+            <li>
+              <h3>Educational Background</h3>
+              <p>
+                Dr. Bagdatov earned his dental degree from the Medical
+                University of Sofia, where he was thoroughly educated in
+                dental sciences and modern clinical practices.
+              </p>
+            </li>
+
+            <li>
+              <h3>Professional Approach with a Personal Touch</h3>
+              <p>
+                With his extensive experience, Dr. Bagdatov focuses on
+                delivering comprehensive dental services, ranging from
+                preventive care to complex procedures. He is known for his
+                patient-first approach, ensuring comfort on each visit.
+              </p>
+            </li>
+
+            <li>
+              <h3>Professional Dental Care</h3>
+              <p>
+                Dr. Bagdatov's practice is adept at delivering a wide spectrum
+                of dental services with precision and care. He is committed to
+                providing high-quality, tailored dental treatments that meet
+                the individual needs of each patient.
+              </p>
+            </li>
+          </div>
+
+          <div class="about_text_signature">
+            <img src="/signature.png" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------- SERVICES ------------->
+    <section id="services-section">
+      <div class="services_group">
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/caries.svg" alt="image" />
+          </div>
+          <div class="service_title">Cariesology</div>
+          <div class="service_description">
+            Treatment and restoration of teeth damaged by caries.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/instruments.svg" alt="image" />
+          </div>
+          <div class="service_title">Endodontics</div>
+          <div class="service_description">
+            Treating tooth pulp diseases and a variety of related
+            complications.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/scalpel.svg" alt="image" />
+          </div>
+          <div class="service_title">Oral Surgery</div>
+          <div class="service_description">
+            Procedures like tooth removal, wisdom tooth extraction, and cyst
+            removal.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/tooth-plus.svg" alt="image" />
+          </div>
+          <div class="service_title">Prosthetics</div>
+          <div class="service_description">
+            Restoration of edentulous areas with removable or fixed
+            constructions.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/implantology.svg" alt="image" />
+          </div>
+          <div class="service_title">Implantology</div>
+          <div class="service_description">
+            Placement of titanium implants in the edentulous area, restoring
+            masticatory function.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/crossed.svg" alt="image" />
+          </div>
+          <div class="service_title">Periodontology</div>
+          <div class="service_description">
+            Cleaning of tartar and control over the diseases of the gums.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/girl.svg" alt="image" />
+          </div>
+          <div class="service_title">Pediatric Dentistry</div>
+          <div class="service_description">
+            Careful and individual approach when working with children of all
+            ages.
+          </div>
+        </div>
+
+        <div class="service_container">
+          <div class="service_icon">
+            <img src="/aesthetics.svg" alt="image" />
+          </div>
+          <div class="service_title">Aesthetics</div>
+          <div class="service_description">
+            Teeth whitening, Cosmetic build-ups (bonding), Veneers, etc.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------- REVIEWS ------------->
+    <section id="reviews-section">
+      <script src="scripts/swiper-bundle.min.js" type="module"></script>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Sofia Boqnova -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/sofi.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Sofia Boqnova</p>
+                <div class="review_name_instagram">
+                  <a href="https://www.instagram.com/sofiqboqnova/" target="_blank">
+                    <img src="/instagram.svg" alt="instagram" />
+                  </a>
+                </div>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  Surprisingly pleasant experience for a wisdom tooth
+                  extraction. Dr. Georgi was efficient and reassuring
+                  throughout the procedure.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Asen Todorov -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/asen.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Asen Todorov</p>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  I took my daughter to Dr. Bagdatov for her first dental
+                  visit. He was fantastic with kids – patient, friendly, and
+                  made her laugh.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desislava Petrova -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/desi.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Desislava Petrova</p>
+                <div class="review_name_instagram">
+                  <a href="https://www.instagram.com/this_is_lava/" target="_blank">
+                    <img src="/instagram.svg" alt="instagram" />
+                  </a>
+                </div>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  Went to Dr. Georgi for a second opinion and ended up staying
+                  with him. His approach to dental care is practical and
+                  straightforward.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kaloyan Ivanov -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/kaloyan.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Kaloyan Ivanov</p>
+                <div class="review_name_instagram">
+                  <a href="https://www.instagram.com/_k.ivvanovv/" target="_blank">
+                    <img src="/instagram.svg" alt="instagram" />
+                  </a>
+                </div>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  Quality care at surprisingly affordable rates. Highly
+                  recommended.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Maria Georgieva -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/maria.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Maria Georgieva</p>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  Brought my elderly mother to Dr. Bagdatov. He was
+                  exceptionally patient and understanding.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ioan Boqnov -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/ioan.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Ioan Boqnov</p>
+                <div class="review_name_instagram">
+                  <a href="https://www.instagram.com/ioanboqnov/" target="_blank">
+                    <img src="/instagram.svg" alt="instagram" />
+                  </a>
+                </div>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  From the reception to the dental chair, everything was
+                  top-notch. Overall 5-star experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vasil Kostov -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/vasil.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Vasil Kostov</p>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  The go-to place for dental emergencies. Quick to respond and
+                  extremely efficient. Very grateful for his prompt help!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dobry Nikolov -->
+          <div class="swiper-slide">
+            <div class="review_container disable-selection">
+              <div class="review_profile">
+                <img src="/dobry.png" alt="profile" />
+              </div>
+              <div class="review_name">
+                <p>Dobry Nikolov</p>
+                <div class="review_name_instagram">
+                  <a href="https://www.instagram.com/bovfbovf/" target="_blank">
+                    <img src="/instagram.svg" alt="instagram" />
+                  </a>
+                </div>
+              </div>
+              <div class="review_stars">
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+                <img src="/star.svg" alt="star" />
+              </div>
+              <div class="review_text">
+                <p>
+                  I highly recommend Dr. Bagdatov to anyone looking for a
+                  reliable and skilled dentist.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <script src="./scripts/swiper-reviews.js" type="module"></script>
+    </section>
+
+    <!------------- CONTACT ------------->
+    <section id="contact-section">
+      <div class="contact_group">
+        <div class="form-and-info-container">
+          <div class="form_container">
+            <form method="post" action="https://www1.domain.com/scripts/formemail.html">
+              <input type="hidden" name="my_email" value="doniadept@gmail.com" />
+
+              <div class="form_group">
+                <input type="text" name="fullname" size="25" placeholder="Name" required />
+              </div>
+
+              <div class="form_group">
+                <input type="email" name="email" size="25" placeholder="Email" required />
+              </div>
+
+              <div class="form_group">
+                <textarea name="message" placeholder="Type your message here..." required></textarea>
+              </div>
+
+              <input type="hidden" name="subject" value="form submission from %%fullname%%" />
+
+              <input type="hidden" name="required" value="email, fullname" />
+
+              <div class="form_button_container form_group">
+                <input class="form_button" type="submit" name="submit" value="Submit Now" />
+              </div>
+            </form>
+          </div>
+
+          <div class="info_container">
+            <div class="info_content">
+              <div class="info_working-hours">
+                <p class="info_head-title">Working Hours:</p>
+
+                <div class="info_working-hours_list">
+                  <div>
+                    <span class="info_span_highlight">Monday-Friday: 09:00 - 21:00
+                    </span>
+                  </div>
+                  <div>
+                    <span class="info_span_highlight">Saturday: 09:00 - 16:00
+                    </span>
+                  </div>
+                  <div>
+                    <span class="info_span_highlight">Sunday: Closed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info_address">
+                <p class="info_head-title">Address:</p>
+                <a href="https://maps.app.goo.gl/AbfHVwvSV4ob8fFy5" target="_blank">
+                  <span class="info_span_highlight">ul. "Biser" 2 g.k. Lozenets, Sofia</span>
+                </a>
+              </div>
+
+              <div class="info_contact">
+                <p class="info_head-title">Contact:</p>
+                <div class="info_contact_phone">
+                  <!-- TODO: see if it should be +359 -->
+                  <a href="tel:0885691021">
+                    <span class="info_span_highlight">0885 691 021</span>
+                  </a>
+                </div>
+
+                <div class="info_contact_email">
+                  <a href="mailto:g.bagdatov@gmail.com">
+                    <span class="info_span_highlight">g.bagdatov@gmail.com</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map_container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.0104626575694!2d23.323397899999996!3d42.68232069999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8508a2d29f03%3A0xcc8e5131ecb66c5e!2sul.%20%22Biser%22%202%2C%201421%20g.k.%20Lozenets%2C%20Sofia!5e0!3m2!1sen!2sbg!4v1699453366942!5m2!1sen!2sbg"
+            width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!------------- FOOTER ------------->
+  <footer class="footer">
+    <div class="footer_version">
+      <p>v. 44</p>
+      <!--
+                git rev-list --all --count
+            -->
+    </div>
+
+    <div class="footer_text">
+      <p>
+        Made by
+        <a href="https://www.linkedin.com/in/donitsonchev/">Doni Tsonchev</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.languages {
+    position: fixed;
+    display: none;
+    gap: 18px;
+    right: 93px;
+    top: 480px;
+    z-index: 1400;
+    width: max-content;
+}
+
+.languages.active {
+    display: flex;
+}
+
+.languages_button {
+    width: 28px;
+    z-index: inherit;
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    .languages {
+        display: flex;
+        right: 14px;
+        top: 6px;
+        top: unset;
+        left: unset;
+        gap: 4px;
+    }
+}

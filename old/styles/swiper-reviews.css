@@ -1,0 +1,15 @@
+.swiper {
+    max-width: 800px;
+    max-height: 660px;
+    padding: 24px 0;
+}
+
+.swiper-slide {
+    width: auto;
+    width: fit-content;
+    margin: auto;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--color-light);
+}

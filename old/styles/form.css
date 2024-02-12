@@ -1,0 +1,52 @@
+.form_container {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-gray);
+    box-shadow: 0px 0px 2px var(--color-dark);
+}
+
+@media (min-width: 600px) {
+    .form_container {
+        height: 400px;
+    }
+}
+
+.form_group {
+    margin: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-gray);
+    border-radius: 5px;
+    background-color: var(--color-light);
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.form_button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_button {
+    background-color: var(--color-dark);
+    color: var(--color-pure-white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 38%;
+}
+
+.form_button:hover {
+    transition-duration: 140ms;
+    background-color: var(--color-dark);
+}
