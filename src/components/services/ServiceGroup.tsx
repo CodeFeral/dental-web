@@ -17,7 +17,7 @@ export default function ServiceGroup() {
       />
       <Service
         title="Oral Surgery"
-        description="Procedures like tooth removal, wisdom tooth extraction, and cyst removal."
+        description="Procedures like tooth and cyst removal, and wisdom tooth extraction."
         image="../../../public/services/surgery.svg"
       />
       <Service
@@ -27,7 +27,7 @@ export default function ServiceGroup() {
       />
       <Service
         title="Implantology"
-        description="Placement of titanium implants in the edentulous area, restoring masticatory function."
+        description="Titanium implants in edentulous areas to restore masticatory function."
         image="../../../public/services/implantology.svg"
       />
       <Service
@@ -44,6 +44,11 @@ export default function ServiceGroup() {
         title="Aesthetics"
         description="Teeth whitening, Cosmetic build-ups (bonding), Veneers, etc."
         image="../../../public/services/aesthetics.svg"
+      />
+      <Service
+        title="Consultation"
+        description="Expert advice and tailored care plans for dental health needs."
+        image="../../../public/services/consultation.svg"
       />
     </div>
   );

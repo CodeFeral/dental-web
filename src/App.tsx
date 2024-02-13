@@ -1,4 +1,4 @@
-import ServiceGroup from "./components/Services/ServiceGroup";
+import ServiceGroup from "./components/services/ServiceGroup";
 
 import "./styles/reset.css";
 import "./styles/style.css";
