@@ -3,8 +3,9 @@
   --color-white: #ffffff;
   --color-gray-dark: #363636;
   --color-gray-mid: #707070;
-
+  --color-gray-border: #dee2e6;
   --color-blue: #34c2cb;
+  --color-blue-light: #dbeffa;
   --color-orange: #ff8e4f;
 
   --font-size-default: 16px;
@@ -13,7 +14,7 @@
 }
 
 body {
-  background-color: var(--color-gray-dark);
+  background-color: var(--color-blue-light);
   color: var(--color-white);
 
   min-width: 320px;
