@@ -9,9 +9,7 @@ interface ServiceProps {
 export default function Service(props: ServiceProps) {
   return (
     <div class={styles.container}>
-      <div class={styles["image-container"]}>
-        <img class={styles.image} src={props.image} alt={props.title} />
-      </div>
+      <img class={styles.image} src={props.image} alt={props.title} />
 
       <h2>{props.title}</h2>
 

@@ -1,4 +1,3 @@
-import Profile from "./components/Profile";
 import ServiceGroup from "./components/Services/ServiceGroup";
 
 import "./styles/reset.css";
@@ -8,7 +7,6 @@ function App() {
   return (
     <>
       <ServiceGroup />
-      <Profile />
     </>
   );
 }
