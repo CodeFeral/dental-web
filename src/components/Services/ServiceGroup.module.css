@@ -1,5 +1,29 @@
 .container {
-  background-color: orange;
-  width: 3000px;
-  height: 3000px;
+  border: 1px solid red;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
 }
+
+/* ----------------------------- */
+
+/*
+#services-section {
+    background-color: var(--color-primary);
+}
+
+.services_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    gap: 20px;
+}
+*/
