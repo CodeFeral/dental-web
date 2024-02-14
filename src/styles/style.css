@@ -4,11 +4,15 @@
   --color-gray-dark: #363636;
   --color-gray-mid: #707070;
   --color-gray-border: #dee2e6;
+  --color-gray-input: #909090;
   --color-blue: #34c2cb;
   --color-blue-light: #dbeffa;
   --color-orange: #ff8e4f;
+  --color-orange-light: #ffe4d6;
 
+  --transition-duration-button: 120ms;
   --font-size-default: 16px;
+
   --transition-duration: 260ms;
   --navigation-vertical-size: 40px;
 }

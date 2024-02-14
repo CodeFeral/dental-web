@@ -52,6 +52,7 @@
   padding: 8px;
 
   background-color: var(--color-white);
+  /* background-color: var(--color-blue-light); */
 
   overflow: hidden;
 }
