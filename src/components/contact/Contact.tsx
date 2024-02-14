@@ -9,6 +9,7 @@ export default function Contact() {
         image="../../../public/contact/phone.svg"
         imageAlt="phone"
         description="+359 885 691 021"
+        href="tel:0885691021"
       />
 
       <ContactRow
@@ -23,6 +24,8 @@ export default function Contact() {
         image="../../../public/contact/location.svg"
         imageAlt="location"
         description='ul. "Biser" 2 g.k. Lozenets, Sofia'
+        href="https://maps.app.goo.gl/AbfHVwvSV4ob8fFy5"
+        target
       />
 
       <ContactRow
@@ -30,7 +33,8 @@ export default function Contact() {
         image="../../../public/contact/emergency.svg"
         imageAlt="emergency"
         description="24/7 Emergency Support"
-        emergency={true}
+        emergency
+        href="tel:0885691021"
       />
     </div>
   );
