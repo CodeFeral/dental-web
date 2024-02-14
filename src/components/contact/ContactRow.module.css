@@ -1,0 +1,39 @@
+.container {
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+
+  padding: 4px;
+  border: 1px solid var(--color-gray-border);
+  border-radius: 6px;
+
+  background-color: var(--color-white);
+  color: var(--color-gray-mid);
+}
+
+.image {
+  width: 34px;
+  height: 34px;
+
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 14px;
+  /* color: var(--color-orange); */
+}
+
+.description {
+  font-weight: 500;
+  color: var(--color-blue);
+}
+
+.emergencyColor {
+  color: var(--color-orange);
+}

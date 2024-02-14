@@ -1,3 +1,4 @@
+import Contact from "./components/contact/Contact";
 import Form from "./components/form/Form";
 import ReviewGroup from "./components/reviews/ReviewGroup";
 import PitchGroup from "./components/pitch/PitchGroup";
@@ -16,6 +17,7 @@ import "./styles/style.css";
 function App() {
   return (
     <>
+      <Contact />
       <Form />
       <ReviewGroup />
       <PitchGroup />
