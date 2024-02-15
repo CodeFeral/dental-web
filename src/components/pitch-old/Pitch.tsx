@@ -9,14 +9,12 @@ interface PitchProps {
 export default function Pitch(props: PitchProps) {
   return (
     <div class={styles.container}>
-      <div class={styles["image-container"]}>
-        <img class={styles.image} src={props.image} alt={props.title} />
-      </div>
-
       <div class={styles.content}>
-        <h2 class={styles.title}>{props.title}</h2>
+      <img class={styles.image} src={props.image} alt={props.title} />
 
-        <p class={styles.description}>{props.description}</p>
+      <h2 class={styles.title}>{props.title}</h2>
+
+      <p class={styles.description}>{props.description}</p>
       </div>
     </div>
   );

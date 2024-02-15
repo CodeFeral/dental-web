@@ -5,11 +5,6 @@ export default function PitchGroup() {
   return (
     <div class={styles.container}>
       <Pitch
-        image="../../../public/pitch/shield.svg"
-        title="Safety"
-        description="Your health is my utmost priority. I provide a secure and comforting environment, ensuring your safety."
-      />
-      <Pitch
         image="../../../public/pitch/doctor.svg"
         title="Individualization"
         description="Acknowledging the uniqueness of your smile, I personally adapt your dental care to ensure its health and glow."
@@ -20,13 +15,14 @@ export default function PitchGroup() {
         description="In my clinic, a stress-free care environment is the standard. Ensuring your comfort and peace of mind is my top priority."
       />
       <Pitch
-        image="../../../public/pitch/display-tooth.svg"
-        title="Modern Approach"
-        description="Step into the future of dentistry at my clinic, blending time-honed tradition with cutting-edge care for efficient treatment."
+        image="../../../public/pitch/shield.svg"
+        title="Safety"
+        description="Your safety is my utmost priority. I provide a secure and comforting environment, ensuring you feel at ease during every visit."
       />
     </div>
   );
 }
+
 
 // "Dentistry demands a personalized approach; no two smiles are alike. I aim for perfection, customizing your care to fit your unique needs. Throughout your treatment, I focus on education, ensuring you leave with not just a healthier smile, but also increased confidence in your dental health."
 //
