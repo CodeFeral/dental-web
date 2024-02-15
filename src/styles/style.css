@@ -22,10 +22,10 @@
 }
 
 body {
-  background-color: var(--color-blue-light);
-  background-color: var(--color-white);
+  /* background-color: var(--color-blue-light); */
+  /* background-color: var(--color-white); */
   background-color: var(--color-white-shade);
-  color: var(--color-white);
+  color: var(--color-gray-mid);
 
   min-width: 320px;
   min-height: 100vh;

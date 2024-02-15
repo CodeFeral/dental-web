@@ -30,7 +30,7 @@ export default function Contact() {
 
       <ContactRow
         title="Emergency"
-        image="../../../public/contact/emergency.svg"
+        image="../../../public/contact/alarm.svg"
         imageAlt="emergency"
         description="24/7 Emergency Support"
         emergency

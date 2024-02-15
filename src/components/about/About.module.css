@@ -8,11 +8,34 @@
   border: 1px solid red;
 }
 
-.visual {
+.about {
   display: flex;
-  border: 1px solid yellow;
+  flex-direction: column;
+  gap: 10px;
+
+  margin: 10px;
 }
 
-.image {
+.heading {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.info {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.stats {
+  border: 1px solid #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.portrait {
   border: 1px solid teal;
+  border-radius: 36%;
 }

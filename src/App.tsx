@@ -9,6 +9,8 @@ import ServiceGroup from "./components/services/ServiceGroup";
 import "./styles/reset.css";
 import "./styles/style.css";
 
+// SEO stuff, check tags, reduce <div> if necessary
+
 // TODO: the cool tooth idea
 // I think the reveal canvas stuff
 // Otherwise have to go the long way
