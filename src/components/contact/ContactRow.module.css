@@ -32,6 +32,10 @@
   color: var(--color-blue);
 }
 
+.hover {
+  color: var(--color-orange);
+}
+
 .emergencyColor {
   color: var(--color-orange);
 }

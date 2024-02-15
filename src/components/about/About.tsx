@@ -36,7 +36,7 @@ export default function About() {
             imageBlue="../../../public/stats/layer-blue.svg"
             imageAlt="layers"
             value="5 +"
-            info="Years of Experience"
+            info="Years of work experience"
           />
         </div>
       </div>
