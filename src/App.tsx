@@ -1,3 +1,4 @@
+import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Form from "./components/form/Form";
 import Map from "./components/map/Map";
@@ -18,6 +19,7 @@ import "./styles/style.css";
 function App() {
   return (
     <>
+      <About />
       <Contact />
       <Form />
       <Map />
