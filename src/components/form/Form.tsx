@@ -52,7 +52,7 @@ export default function Form() {
 
           <div class={`${styles["button-container"]} ${styles.group}`}>
             <input
-              class={styles.button}
+              class={`${styles.button} button`}
               type="submit"
               name="submit"
               value="Submit Now"
