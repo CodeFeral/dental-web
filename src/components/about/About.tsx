@@ -18,19 +18,22 @@ export default function About() {
 
         <div class={styles.stats}>
           <Stat
-            image="../../../public/stats/medal.svg"
+            imageOrange="../../../public/stats/medal-orange.svg"
+            imageBlue="../../../public/stats/medal-blue.svg"
             imageAlt="medals"
             value="3k +"
             info="Successful Treatments"
           />
           <Stat
-            image="../../../public/stats/heart.svg"
+            imageOrange="../../../public/stats/heart-orange.svg"
+            imageBlue="../../../public/stats/heart-blue.svg"
             imageAlt="hearts"
             value="100%"
             info="Affordable and Satisfactory"
           />
           <Stat
-            image="../../../public/stats/layer.svg"
+            imageOrange="../../../public/stats/layer-orange.svg"
+            imageBlue="../../../public/stats/layer-blue.svg"
             imageAlt="layers"
             value="5 +"
             info="Years of Experience"
