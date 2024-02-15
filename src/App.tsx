@@ -1,5 +1,6 @@
 import Contact from "./components/contact/Contact";
 import Form from "./components/form/Form";
+import Map from "./components/map/Map";
 import ReviewGroup from "./components/reviews/ReviewGroup";
 import PitchGroup from "./components/pitch/PitchGroup";
 import ServiceGroup from "./components/services/ServiceGroup";
@@ -19,6 +20,7 @@ function App() {
     <>
       <Contact />
       <Form />
+      <Map />
       <ReviewGroup />
       <PitchGroup />
       <ServiceGroup />
