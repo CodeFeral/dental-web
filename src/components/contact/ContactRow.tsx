@@ -51,8 +51,8 @@ export default function ContactRow(props: ContactRowProps) {
             <p
               classList={{
                 [styles.description]: true,
-                [styles.emergencyColor]: props.emergency,
-                [styles.hover]: hover(),
+                ["color-orange"]: hover() || props.emergency,
+                ["color-red"]: hover() && props.emergency,
               }}
             >
               {props.description}

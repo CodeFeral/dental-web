@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 8px;
 
-  max-width: 600px;
+  max-width: 580px;
   min-width: 300px;
   height: auto;
 
@@ -44,4 +44,16 @@
     flex-direction: row;
     text-align: left;
   }
+
+  /* .container:nth-child(even) { */
+  /*   flex-direction: row-reverse; */
+  /* } */
+  /**/
+  /* .container:nth-child(even) .title { */
+  /*   text-align: right; */
+  /* } */
+  /**/
+  /* .container:nth-child(even) .description { */
+  /*   text-align: right; */
+  /* } */
 }

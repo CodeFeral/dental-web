@@ -14,6 +14,8 @@
   --color-orange: #ff8e4f;
   --color-orange-light: #ffe4d6;
 
+  --color-red: #ff1010;
+
   --transition-duration-button: 120ms;
   --font-size-default: 16px;
 
@@ -43,6 +45,18 @@ body {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+.color-orange {
+  color: var(--color-orange);
+}
+
+.color-blue {
+  color: var(--color-blue);
+}
+
+.color-red {
+  color: var(--color-red);
 }
 
 .text-bold {
