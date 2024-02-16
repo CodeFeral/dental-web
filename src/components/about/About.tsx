@@ -4,8 +4,10 @@ import Stat from "./Stat";
 export default function About() {
   return (
     <div class={styles.container}>
-      <h2 class={`${styles.heading} narrative`}>About Your Dentist...</h2>
-
+      <h2 class={`${styles["about-heading-portrait"]} narrative`}>
+        {" "}
+        About Your Dentist...{" "}
+      </h2>
       <img
         class={styles.portrait}
         src="../../../public/georgi-transparent.png"
@@ -13,6 +15,10 @@ export default function About() {
       />
 
       <div class={styles.about}>
+        <h2 class={`${styles["about-heading-info"]} narrative`}>
+          {" "}
+          About Your Dentist...{" "}
+        </h2>
         <div class={styles.info}>
           <h3 class={styles.name}>Doctor Georgi Bagdatov</h3>
           <p>
@@ -34,7 +40,7 @@ export default function About() {
               imageOrange="../../../public/stats/medal-orange.svg"
               imageBlue="../../../public/stats/medal-blue.svg"
               imageAlt="medals"
-              value="3k +"
+              value="4k+"
               info="Treatments"
             />
             <Stat
@@ -50,8 +56,8 @@ export default function About() {
               imageOrange="../../../public/stats/layer-orange.svg"
               imageBlue="../../../public/stats/layer-blue.svg"
               imageAlt="layers"
-              value="5 +"
-              info="Work Years"
+              value="7k+"
+              info="Work Hours"
             />
             <Stat
               imageOrange="../../../public/stats/wallet-orange.svg"

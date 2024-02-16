@@ -21,13 +21,13 @@ import "./styles/style.css";
 function App() {
   return (
     <>
-      <About />
       <Contact />
       <Form />
       <Map />
       <ReviewGroup />
       <PitchGroup />
       <ServiceGroup />
+      <About />
     </>
   );
 }
