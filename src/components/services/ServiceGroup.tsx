@@ -7,7 +7,7 @@ export default function ServiceGroup() {
     <div class={styles.container}>
       <Service
         title="Cariesology"
-        description="Treatment and restoration of teeth damaged by caries."
+        description="Protection, treatment, and restoration of teeth damaged by caries."
         image="../../../public/services/cariesology.svg"
       />
       <Service
@@ -16,15 +16,9 @@ export default function ServiceGroup() {
         image="../../../public/services/endodontics.svg"
       />
       <Service
-        // title="Oral Surgery"
-        title="Teeth Whitening"
+        title="Oral Surgery"
         description="Procedures like tooth and cyst removal, and wisdom tooth extraction."
         image="../../../public/services/surgery.svg"
-      />
-      <Service
-        title="Prosthetics"
-        description="Restoration of edentulous areas with removable or fixed constructions."
-        image="../../../public/services/prosthetics.svg"
       />
       <Service
         title="Implantology"
@@ -54,3 +48,9 @@ export default function ServiceGroup() {
     </div>
   );
 }
+
+// <Service
+//   title="Prosthetics"
+//   description="Restoration of edentulous areas with removable or fixed constructions."
+//   image="../../../public/services/prosthetics.svg"
+// />;
