@@ -7,6 +7,13 @@
   --color2: #ff8e4f;
   --color-red: #ff1010;
 
+  --fd-small: 16px;
+  --fd-normal: 20px;
+  --fd-big: 24px;
+  --fm-tiny: 12px;
+  --fm-normal: 14px;
+  --fm-big: 16px;
+
   --transition-duration-button: 120ms;
   --box-shadow: 0 10px 50px rgba(0, 128, 128, 0.1);
 }
@@ -18,10 +25,11 @@
     url("../../public/fonts/Satoshi-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+}
 
-  /* use: */
-  /* font-family: 'Satoshi', sans-serif; */
-  /* font-weight: bold; */
+.bold {
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
 }
 
 body {
@@ -39,12 +47,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: var(--fm-normal);
   color: var(--color-gray);
-}
-
-.text-bold {
-  font-weight: 500;
 }
 
 .button {

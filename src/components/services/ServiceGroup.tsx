@@ -16,7 +16,8 @@ export default function ServiceGroup() {
         image="../../../public/services/endodontics.svg"
       />
       <Service
-        title="Oral Surgery"
+        // title="Oral Surgery"
+        title="Teeth Whitening"
         description="Procedures like tooth and cyst removal, and wisdom tooth extraction."
         image="../../../public/services/surgery.svg"
       />

@@ -12,7 +12,7 @@ export default function Service(props: ServiceProps) {
       <div class={styles.content}>
         <img class={styles.image} src={props.image} alt={props.title} />
 
-        <h2 class={styles.title}>{props.title}</h2>
+        <h2 class={`${styles.title} bold`}>{props.title}</h2>
 
         <p>{props.description}</p>
       </div>
