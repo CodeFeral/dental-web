@@ -9,11 +9,15 @@
   max-width: 440px;
 
   margin: 0 20px;
-  border: 1px solid var(--c-shade);
+  /* border: 1px solid var(--c-shade); */
   border-radius: 6px;
   padding: 10px;
 
-  background-color: var(--c-white);
+  /* background-color: var(--c-white); */
+}
+
+.container:hover {
+  box-shadow: var(--box-shadow);
 }
 
 .content {
@@ -27,8 +31,9 @@
 }
 
 .image {
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
+  margin: 0 10px;
 }
 
 .title {
@@ -47,6 +52,10 @@
   width: fit-content;
 
   color: var(--c-2);
+}
+
+.more:hover {
+  text-shadow: 0 0 2px var(--c-2);
 }
 
 .more img {
@@ -70,8 +79,8 @@
   }
 
   .image {
-    width: 66px;
-    height: 66px;
+    width: 74px;
+    height: 74px;
   }
 
   .title {
