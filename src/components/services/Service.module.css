@@ -1,35 +1,34 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 10px;
 
   min-width: 280px;
   max-width: 440px;
 
-  padding: 10px;
-
   margin: 0 20px;
-  border-radius: 6px;
   border: 1px solid var(--c-shade);
+  border-radius: 6px;
+  padding: 10px;
 
   background-color: var(--c-white);
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
   width: 100%;
 
   margin: auto;
-
-  text-align: left;
 }
 
 .image {
   width: 60px;
   height: 60px;
-
-  margin: auto;
 }
 
 .title {
@@ -37,6 +36,23 @@
   color: var(--c-1);
 }
 
+.more {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  width: fit-content;
+
+  color: var(--c-2);
+}
+
+.more img {
+  width: 18px;
+  height: 18px;
+}
 
 @media screen and (min-width: 800px) {
   .container {
