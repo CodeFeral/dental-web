@@ -8,7 +8,7 @@
   min-width: 280px;
   max-width: 440px;
 
-  padding: 10px 10px;
+  padding: 10px;
 
   margin: 0 20px;
   border-radius: 6px;
@@ -33,7 +33,6 @@
 }
 
 .title {
-  margin-top: 4px;
   font-size: var(--fm-big);
   color: var(--c-1);
 }
@@ -64,6 +63,6 @@
   }
 
   .content {
-    font-size: var(--fd-small);
+    font-size: var(--fd-normal);
   }
 }
