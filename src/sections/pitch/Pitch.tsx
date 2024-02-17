@@ -1,10 +1,10 @@
-import Pitch from "./Pitch";
-import styles from "./PitchGroup.module.css";
+import Pitch from "../../components/pitch/Pitch";
+import styles from "./Pitch.module.css";
 
-export default function PitchGroup() {
+export default function PitchSection() {
   return (
-    <div class={styles.container}>
-      <div class={styles.content}>
+    <section class={styles.section}>
+      <div class={styles.container}>
         <Pitch
           image="../../../public/pitch/shield.svg"
           title="Safety"
@@ -21,6 +21,6 @@ export default function PitchGroup() {
           description="Step into the future of dentistry, blending time-honored traditions with cutting-edge technology for effective and efficient treatment."
         />
       </div>
-    </div>
+    </section>
   );
 }

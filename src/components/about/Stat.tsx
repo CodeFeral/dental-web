@@ -24,7 +24,7 @@ export default function Stat(props: StatProps) {
           src={toggle() ? props.imageBlue : props.imageOrange}
           alt={props.imageAlt}
         />
-        <p class={styles.value}>{props.value}</p>
+        <p class={`${styles.value} bold`}>{props.value}</p>
       </div>
 
       <p class={styles.info}>{props.info}</p>

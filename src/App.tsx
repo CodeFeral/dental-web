@@ -1,19 +1,29 @@
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Form from "./components/form/Form";
-import Map from "./components/map/Map";
-import ReviewGroup from "./components/reviews/ReviewGroup";
-import PitchGroup from "./components/pitch/PitchGroup";
-import ServiceGroup from "./components/services/ServiceGroup";
+import AboutSection from "./sections/about/About";
+import LandingSection from "./sections/landing/Landing";
+import PitchSection from "./sections/pitch/Pitch";
+import ServiceSection from "./sections/services/Service";
 
 import "./styles/reset.css";
 import "./styles/style.css";
 
-import Landing from "./pages/Landing";
+function App() {
+  return (
+    <>
+      <LandingSection />
+      <PitchSection />
+      <AboutSection />
+      <ServiceSection />
+    </>
+  );
+}
+
+export default App;
 
 // SEO stuff, check tags, reduce <div> if necessary.
 
 // Everything should fit 1200px width.
+
+// check and disable mobile horizontal overflows
 
 // TODO: the cool tooth idea
 // I think the reveal canvas stuff.
@@ -35,20 +45,3 @@ import Landing from "./pages/Landing";
 // https://swishoralcare.ca/ and
 // https://thegleamery.com/
 // card sizing
-
-function App() {
-  return (
-    <>
-      <PitchGroup />
-      <Landing />
-      <ServiceGroup />
-      <About />
-      <ReviewGroup />
-      <Contact />
-      <Form />
-      <Map />
-    </>
-  );
-}
-
-export default App;

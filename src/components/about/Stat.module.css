@@ -2,36 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  width: 120px;
-
-  padding: 10px 2px;
-  text-align: center;
+  border: 1px solid #000;
+  width: 100px;
 }
 
 .group {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
 .image {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
 }
 
 .value {
   white-space: nowrap;
-  font-weight: 500;
-  font-size: 24px;
+  font-size: var(--fm-title);
   /* font-style: italic; */
   color: var(--color-blue);
 }
 
 .info {
-  white-space: nowrap;
-  font-weight: 500;
+  /* white-space: nowrap; */
   /* font-style: italic; */
-  color: var(--color-gray-mid);
-  color: var(--color-blue);
 }

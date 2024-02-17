@@ -1,0 +1,24 @@
+.section {
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  min-width: 280px;
+
+  margin: auto;
+  /* border: 1px solid purple; */
+  padding: 20px;
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    flex-direction: row;
+  }
+}

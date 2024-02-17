@@ -1,8 +1,7 @@
-import styles from "./ServiceGroup.module.css";
+import Service from "../../components/services/Service";
+import styles from "./Service.module.css";
 
-import Service from "./Service";
-
-export default function ServiceGroup() {
+export default function ServiceSection() {
   return (
     <div class={styles.container}>
       <Service
