@@ -9,6 +9,8 @@ import ServiceGroup from "./components/services/ServiceGroup";
 import "./styles/reset.css";
 import "./styles/style.css";
 
+import Landing from "./pages/Landing";
+
 // SEO stuff, check tags, reduce <div> if necessary.
 
 // TODO: the cool tooth idea
@@ -22,16 +24,28 @@ import "./styles/style.css";
 // of dentistry. If so, consider
 // replacing "Anxiety" with "Skill".
 
+// White space, no borders
+// Use the whole screen
+
+// Nav
+// Landing
+// Services
+// About
+// Pitch
+// Reviews
+// Contact
+
 function App() {
   return (
     <>
+      <Landing />
       <ServiceGroup />
+      <About />
       <PitchGroup />
       <ReviewGroup />
       <Contact />
       <Form />
       <Map />
-      <About />
     </>
   );
 }

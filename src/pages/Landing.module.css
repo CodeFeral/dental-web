@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid green;
+}
+
+.content {
+  border: 1px solid blue;
+}
+
+.welcome {
+  border: 1px solid purple;
+}
+
+.visual {
+  border: 1px solid purple;
+}

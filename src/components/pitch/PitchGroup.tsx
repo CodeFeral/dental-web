@@ -4,26 +4,32 @@ import styles from "./PitchGroup.module.css";
 export default function PitchGroup() {
   return (
     <div class={styles.container}>
-      <Pitch
-        image="../../../public/pitch/shield.svg"
-        title="Safety"
-        description="Your health is my utmost priority. I provide a secure and comforting environment, ensuring your safety."
-      />
-      <Pitch
-        image="../../../public/pitch/doctor.svg"
-        title="Individualization"
-        description="Acknowledging the uniqueness of your smile, I personally adapt your dental care to ensure its health and glow."
-      />
-      <Pitch
-        image="../../../public/pitch/tooth-green.svg"
-        title="Anxiety Free"
-        description="In my clinic, a stress-free care environment is the standard. Ensuring your comfort and peace of mind is my top priority."
-      />
-      <Pitch
-        image="../../../public/pitch/display-tooth.svg"
-        title="Modern Approach"
-        description="Step into the future of dentistry at my clinic, blending time-honed tradition with cutting-edge care for efficient treatment."
-      />
+      <div class={styles.content}>
+        <div class={styles.group}>
+          <Pitch
+            image="../../../public/pitch/shield.svg"
+            title="Safety"
+            description="Your health is my utmost priority. In my practice, I provide a secure and comforting environment, ensuring your safety by the highest standards."
+          />
+          <Pitch
+            image="../../../public/pitch/tooth-green.svg"
+            title="Expertise"
+            description="With refined skill honed through years of dedicated practice, I ensure every aspect of your dental care is handled by an expert touch."
+          />
+        </div>
+        <div class={styles.group}>
+          <Pitch
+            image="../../../public/pitch/doctor.svg"
+            title="Individualization"
+            description="Recognizing the uniqueness of each smile, I personally tailor your dental care to ensure the health and radiance of yours."
+          />
+          <Pitch
+            image="../../../public/pitch/display-tooth.svg"
+            title="Technology"
+            description="Step into the future of dentistry, blending time-honored traditions with cutting-edge technology for effective and efficient treatment."
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -10,13 +10,17 @@
   --c-2: #ff8e4f;
   --c-red: #ff1010;
 
-  --fm-tiny: 12px;
+  --fm-small: 12px;
   --fm-normal: 14px;
-  --fm-big: 16px;
+  --fm-title: 18px;
+  --fm-big: 20px;
 
-  --fd-tiny: 13px;
-  --fd-normal: 15px;
-  --fd-big: 19px;
+  --fd-small: 14px;
+  --fd-normal: 16px;
+  --fd-title: 22px;
+  --fd-big: 22px;
+
+  --f-huge: 28px;
 
   --transition-duration-button: 120ms;
   --box-shadow: 0 0 30px rgba(0, 128, 128, 0.1);

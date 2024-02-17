@@ -9,16 +9,13 @@
   max-width: 440px;
 
   margin: 0 20px;
-  /* border: 1px solid var(--c-shade); */
-  border-radius: 6px;
+  border-radius: 7px;
   padding: 10px;
-
-  /* background-color: var(--c-white); */
 }
 
-.container:hover {
-  box-shadow: var(--box-shadow);
-}
+/* .container:hover { */
+/*   box-shadow: var(--box-shadow); */
+/* } */
 
 .content {
   display: flex;
@@ -28,16 +25,17 @@
   width: 100%;
 
   margin: auto;
+  font-size: var(--fm-normal);
 }
 
 .image {
   width: 64px;
   height: 64px;
-  margin: 0 10px;
+  margin: 6px 10px;
 }
 
 .title {
-  font-size: var(--fm-big);
+  font-size: var(--fm-title);
   color: var(--c-1);
 }
 
@@ -83,11 +81,11 @@
     height: 74px;
   }
 
-  .title {
-    font-size: var(--fd-big);
-  }
-
   .content {
     font-size: var(--fd-normal);
+  }
+
+  .title {
+    font-size: var(--fd-title);
   }
 }
