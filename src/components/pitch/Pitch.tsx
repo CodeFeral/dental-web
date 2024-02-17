@@ -14,7 +14,7 @@ export default function Pitch(props: PitchProps) {
       </div>
 
       <div class={styles.content}>
-        <h2 class={styles.title}>{props.title}</h2>
+        <h2 class={`${styles.title} bold`}>{props.title}</h2>
 
         <p class={styles.description}>{props.description}</p>
       </div>

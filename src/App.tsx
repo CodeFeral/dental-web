@@ -13,6 +13,8 @@ import Landing from "./pages/Landing";
 
 // SEO stuff, check tags, reduce <div> if necessary.
 
+// Everything should fit 1200px width.
+
 // TODO: the cool tooth idea
 // I think the reveal canvas stuff.
 // Otherwise have to go the long way.
@@ -24,24 +26,23 @@ import Landing from "./pages/Landing";
 // of dentistry. If so, consider
 // replacing "Anxiety" with "Skill".
 
-// White space, no borders
-// Use the whole screen
-
-// Nav
-// Landing
-// Services
-// About
-// Pitch
-// Reviews
-// Contact
+// White space, kinda avoid borders.
+// Use the whole screen.
+//
+// Services still media, but not 800px.
+// No need, just on very large screens,
+// so at like @1000 or @1200, and copy
+// https://swishoralcare.ca/ and
+// https://thegleamery.com/
+// card sizing
 
 function App() {
   return (
     <>
+      <PitchGroup />
       <Landing />
       <ServiceGroup />
       <About />
-      <PitchGroup />
       <ReviewGroup />
       <Contact />
       <Form />

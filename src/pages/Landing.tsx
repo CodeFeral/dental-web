@@ -9,9 +9,9 @@ export default function Landing() {
             <h1 class="bold">Dedicated to<br/>Dental Excellence</h1>
             <p>
               Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-              sint.
+              sint. Lorem ipsum sit amet.
             </p>
-            <button class="button">Book Now</button>
+            <button class="button">Contact me</button>
           </div>
         </div>
 
