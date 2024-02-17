@@ -5,23 +5,12 @@ export default function AboutSection() {
   return (
     <section class={styles.section}>
       <div class={styles.container}>
-        <h2 class={`${styles["about-heading-portrait"]} narrative`}>
-          About Your Dentist...
-        </h2>
-        <div class={styles["portrait-container"]}>
-          <img
-            class={styles.portrait}
-            src="../../../public/georgi-transparent.png"
-            alt="Dr. Bagdatov"
-          />
-        </div>
+        <div class={styles.content}>
+          <h2 class={`${styles.narrative} narrative`}>About Your Dentist...</h2>
 
-        <div class={styles.about}>
-          <h2 class={`${styles["about-heading-info"]} narrative`}>
-            About Your Dentist...
-          </h2>
-          <div class={styles.info}>
-            <h3 class={styles.name}>Doctor Georgi Bagdatov</h3>
+          <h3 class={styles.name}>Doctor Georgi Bagdatov</h3>
+
+          <div class={styles.description}>
             <p>
               Welcome, my name is Georgi Bagdatov, and I carry a family legacy
               of exceptional dental care. Educated at the Medical University of
@@ -48,7 +37,7 @@ export default function AboutSection() {
               imageBlue="../../../public/stats/heart-blue.svg"
               imageAlt="hearts"
               value="2k+"
-              info="Happy Customers"
+              info="Customers Satisfied"
             />
             <Stat
               imageOrange="../../../public/stats/layer-orange.svg"

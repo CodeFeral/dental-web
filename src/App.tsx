@@ -9,9 +9,9 @@ import "./styles/style.css";
 function App() {
   return (
     <>
-      <LandingSection />
-      <PitchSection />
       <AboutSection />
+      <PitchSection />
+      <LandingSection />
       <ServiceSection />
     </>
   );

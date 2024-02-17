@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 100px;
 }
 
@@ -16,18 +16,20 @@
 }
 
 .image {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
 }
 
 .value {
   white-space: nowrap;
-  font-size: var(--fm-title);
-  /* font-style: italic; */
-  color: var(--color-blue);
+  font-size: var(--fm-big);
+  color: var(--c-1);
 }
 
 .info {
+  text-align: center;
+  font-style: italic;
+  /* color: var(--c-1); */
   /* white-space: nowrap; */
   /* font-style: italic; */
 }
