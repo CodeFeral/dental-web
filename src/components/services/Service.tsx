@@ -13,8 +13,10 @@ export default function Service(props: ServiceProps) {
       <img class={styles.image} src={props.image} alt={props.title} />
 
       <div class={styles.content}>
-        <h2 class={`${styles.title} bold`}>{props.title}</h2>
-        <p>{props.description}</p>
+        <div>
+          <h2 class={`${styles.title} bold`}>{props.title}</h2>
+          <p class={styles.description}>{props.description}</p>
+        </div>
         <a class={styles.more} href={props.href}>
           <p>Read more</p>
           <img src="../../../public/arrow.svg" />

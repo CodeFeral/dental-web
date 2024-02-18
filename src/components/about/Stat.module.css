@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
 
-  /* border: 1px solid #000; */
   width: 100px;
 }
 
@@ -29,7 +28,24 @@
 .info {
   text-align: center;
   font-style: italic;
-  /* color: var(--c-1); */
-  /* white-space: nowrap; */
-  /* font-style: italic; */
+  font-size: var(--fm-normal);
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 120px;
+  }
+
+  .image {
+    width: 36px;
+    height: 36px;
+  }
+
+  .value {
+    font-size: var(--fd-big);
+  }
+
+  .info {
+    font-size: var(--fd-normal);
+  }
 }

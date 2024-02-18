@@ -8,12 +8,12 @@ export default function PitchSection() {
         <Pitch
           image="../../../public/pitch/shield.svg"
           title="Safety"
-          description="Your health is my utmost priority. In my practice, I provide a secure and comforting environment, ensuring your safety by the highest standards."
+          description="Your health is our utmost priority. In our practice, we provide a secure and comforting environment, ensuring your safety by the highest standards."
         />
         <Pitch
           image="../../../public/pitch/tooth-green.svg"
           title="Expertise"
-          description="With refined skill honed through years of dedicated practice, I ensure every aspect of your dental care is handled by an expert touch."
+          description="With refined skill honed through years of dedicated practice, we ensure every aspect of your dental care is handled by an expert touch."
         />
         <Pitch
           image="../../../public/pitch/display-tooth.svg"
