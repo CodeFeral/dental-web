@@ -1,4 +1,4 @@
-import Stat from "../../components/about/Stat";
+import Stat from "../../components/stats/Stat";
 import styles from "./About.module.css";
 
 export default function AboutSection() {
@@ -11,7 +11,7 @@ export default function AboutSection() {
               About Your Dentist...
             </h2>
 
-            <h3 class={`${styles.name} bold`}>Doctor Georgi Bagdatov</h3>
+            <h3 class={`${styles.name} bold`}>Meet Dr. Georgi Bagdatov</h3>
 
             <div class={styles.description}>
               <p>
@@ -28,24 +28,21 @@ export default function AboutSection() {
           </div>
           <div class={styles.stats}>
             <Stat
-              imageOrange="../../../public/stats/medal-orange.svg"
-              imageBlue="../../../public/stats/medal-blue.svg"
+              image="../../../public/stats/medal-blue.svg"
               imageAlt="medals"
               value="4k+"
               info="Successful Treatments"
             />
             <Stat
-              imageOrange="../../../public/stats/heart-orange.svg"
-              imageBlue="../../../public/stats/heart-blue.svg"
+              image="../../../public/stats/heart-blue.svg"
               imageAlt="hearts"
-              value="2k+"
+              value="3k+"
               info="Customers Satisfied"
             />
             <Stat
-              imageOrange="../../../public/stats/layer-orange.svg"
-              imageBlue="../../../public/stats/layer-blue.svg"
+              image="../../../public/stats/layer-blue.svg"
               imageAlt="layers"
-              value="5k+"
+              value="7k+"
               info="Hours of Experience"
             />
           </div>

@@ -12,6 +12,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 2px;
 }
 
 .image {
@@ -22,7 +23,7 @@
 .value {
   white-space: nowrap;
   font-size: var(--fm-big);
-  color: var(--c-1);
+  /* color: var(--c-1); */
 }
 
 .info {
