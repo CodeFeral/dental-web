@@ -32,12 +32,9 @@
   align-items: center;
   gap: 10px;
 
-  /* width: 100%; */
-
   padding: 10px;
 
   text-align: center;
-  /* border: 1px solid #000; */
 }
 
 .welcome h1 {
@@ -45,7 +42,9 @@
 }
 
 .welcome p {
-  max-width: 400px;
+  max-width: 320px;
+  width: 100%;
+
   font-size: var(--fm-normal);
 }
 
@@ -82,6 +81,7 @@
 
   .welcome p {
     font-size: var(--fm-larger);
+    max-width: 360px;
   }
 
   .welcome button {
@@ -97,6 +97,7 @@
 
   .welcome p {
     font-size: var(--fd-larger);
+    max-width: 400px;
   }
 
   .welcome button {

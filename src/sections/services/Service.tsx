@@ -16,9 +16,9 @@ export default function ServiceSection() {
 
         <div class={styles.content}>
           <Service
-            title="Cariesology"
-            description="Protection, treatment, and restoration of teeth damaged by caries."
-            image="../../../public/services/cariesology.svg"
+            title="Aesthetics"
+            description="Teeth whitening, Cosmetic build-ups (bonding), Veneers, and more."
+            image="../../../public/services/aesthetics.svg"
             href="#"
           />
           <Service
@@ -46,15 +46,15 @@ export default function ServiceSection() {
             href="#"
           />
           <Service
-            title="Pediatric Dentistry"
-            description="Careful and calm approach when working with children of all ages."
-            image="../../../public/services/pediatric.svg"
+            title="Cariesology"
+            description="Protection, treatment, and restoration of teeth damaged by caries."
+            image="../../../public/services/cariesology.svg"
             href="#"
           />
           <Service
-            title="Aesthetics"
-            description="Teeth whitening, Cosmetic build-ups (bonding), Veneers, and more."
-            image="../../../public/services/aesthetics.svg"
+            title="Pediatric Dentistry"
+            description="Careful and calm approach when working with children of all ages."
+            image="../../../public/services/pediatric.svg"
             href="#"
           />
           <Service

@@ -12,10 +12,9 @@ export default function LandingSection() {
               Dental Excellence
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim
-              sint. Lorem ipsum sit amet.
+              Experience dental care designed just for you. Direct, straight to the point medical service.
             </p>
-            <button class="button">Contact me</button>
+            <button class="button">Contact Us</button>
           </div>
         </div>
 

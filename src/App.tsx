@@ -28,3 +28,5 @@ export default App;
 // check and disable mobile horizontal overflows
 
 // SEO stuff, check tags, reduce <div> if necessary.
+
+// Ioan different pic
