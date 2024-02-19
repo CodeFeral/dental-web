@@ -1,5 +1,5 @@
-import { Show, createSignal, onMount } from "solid-js";
-import styles from "./Review.module.css";
+import { Show, createSignal } from "solid-js";
+import styles from "./Testimonial.module.css";
 
 interface ReviewProps {
   picture: string;
@@ -8,7 +8,7 @@ interface ReviewProps {
   link?: string;
 }
 
-export default function Review(props: ReviewProps) {
+export default function Testimonial(props: ReviewProps) {
   const [linkHover, setLinkHover] = createSignal(false);
 
   return (

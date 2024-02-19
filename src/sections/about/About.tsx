@@ -1,3 +1,4 @@
+import Narrative from "../../components/narrative/Narrative";
 import Stat from "../../components/stats/Stat";
 import styles from "./About.module.css";
 
@@ -6,26 +7,24 @@ export default function AboutSection() {
     <section class={styles.section}>
       <div class={styles.container}>
         <div class={styles.content}>
-          <div class={styles.info}>
-            <h2 class={`${styles.narrative} narrative bold`}>
-              About Your Dentist...
-            </h2>
+          <Narrative
+            title="Your Dentist"
+            heading="Meet Dr. Bagdatov"
+            description="Carrying a family legacy of exceptional dental care, and
+                educated at the Medical University of Sofia, Doctor Georgi Bagdatov
+                strives to blend time-honored techniques with modern dentistry."
+          />
 
-            <h3 class={`${styles.name} bold`}>Meet Dr. Georgi Bagdatov</h3>
-
-            <div class={styles.description}>
-              <p>
-                Carrying a family legacy of exceptional dental care, and
-                educated at the Medical University of Sofia, Dr. Bagdatov
-                strives to blend time-honored techniques with modern dentistry.
-              </p>
-              <p>
-                His approach is patient-first, focusing on personalized,
-                comfortable care. Whether it's routine maintenance or complex
-                treatments, he's always dedicated to your health.
-              </p>
-            </div>
+          <div class={styles.image}>
+            <img src="../../../public/georgi-transparent.png" alt="Dr. Georgi Bagdatov" />
           </div>
+
+          <p class={styles.quote}>
+            "My approach prioritizes the patient, focusing on personalized,
+            comfortable care. Whether it's routine maintenance or complex
+            treatments, I'm always committed to your health and well-being."
+          </p>
+
           <div class={styles.stats}>
             <Stat
               image="../../../public/stats/medal-blue.svg"
@@ -46,6 +45,7 @@ export default function AboutSection() {
               info="Hours of Experience"
             />
           </div>
+
           <button class={`${styles.button} button`}>Contact Me</button>
         </div>
       </div>

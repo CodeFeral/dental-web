@@ -1,21 +1,18 @@
+import Narrative from "../../components/narrative/Narrative";
 import Service from "../../components/services/Service";
 import styles from "./Service.module.css";
 
 export default function ServiceSection() {
   return (
-    <section>
+    <section class={styles.section}>
       <div class={styles.container}>
-        <div class={styles.info}>
-          <h2 class={`${styles.narrative} narrative bold`}>Services</h2>
-
-          <h2 class={`${styles.heading} bold`}>What Services We Offer</h2>
-
-          <p class={styles.description}>
-            At our clinic, we offer a comprehensive range of services to help you
+        <Narrative
+          title="Services"
+          heading="What Services We Offer"
+          description="At our clinic, we offer a comprehensive range of services to help you
             achieve optimal oral health, including preventive care, restorative
-            treatments, cosmetic procedures, and more.
-          </p>
-        </div>
+            treatments, cosmetic procedures, and more."
+        />
 
         <div class={styles.content}>
           <Service
