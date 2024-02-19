@@ -1,5 +1,6 @@
 .section {
-  background-color: #ffffff;
+  background-color: var(--c-2L);
+  padding: 100px 0;
 }
 
 .container {
@@ -13,7 +14,6 @@
   min-width: 280px;
 
   margin: auto;
-  /* border: 1px solid purple; */
   padding: 20px;
 }
 

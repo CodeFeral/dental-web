@@ -1,4 +1,4 @@
-import { Show } from "solid-js";
+import { Show, createSignal, onMount } from "solid-js";
 import styles from "./Review.module.css";
 
 interface ReviewProps {
@@ -9,6 +9,8 @@ interface ReviewProps {
 }
 
 export default function Review(props: ReviewProps) {
+  const [linkHover, setLinkHover] = createSignal(false);
+
   return (
     <>
       <div class={styles.container}>
@@ -21,9 +23,18 @@ export default function Review(props: ReviewProps) {
             <p class={`${styles.name} bold`}>{props.name}</p>
 
             <Show when={props.link}>
-              <div class={styles.link}>
+              <div
+                class={styles.link}
+                onmouseenter={() => setLinkHover(true)}
+                onmouseleave={() => setLinkHover(false)}
+              >
                 <a href={props.link} target="_blank">
-                  <img src="../../../public/link.svg" alt="link" />
+                  <Show
+                    when={linkHover()}
+                    fallback={<img src="../../../public/link.svg" alt="link" />}
+                  >
+                    <img src="../../../public/link-hover.svg" alt="link" />
+                  </Show>
                 </a>
               </div>
             </Show>

@@ -3,6 +3,7 @@ import ServiceSection from "./sections/services/Service";
 import AboutSection from "./sections/about/About";
 import PitchSection from "./sections/pitch/Pitch";
 import ReviewSection from "./sections/reviews/Review";
+import ContactSection from "./sections/contact/Contact";
 
 import "./styles/reset.css";
 import "./styles/style.css";
@@ -10,11 +11,12 @@ import "./styles/style.css";
 function App() {
   return (
     <>
-      <ReviewSection />
       <LandingSection />
       <ServiceSection />
       <AboutSection />
       <PitchSection />
+      <ReviewSection />
+      <ContactSection />
     </>
   );
 }

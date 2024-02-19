@@ -107,3 +107,7 @@ body {
 .color-red {
   color: var(--c-red);
 }
+
+.hover-orange {
+  text-shadow: 0 0 4px var(--c-2);
+}

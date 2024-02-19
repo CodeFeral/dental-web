@@ -15,7 +15,8 @@ interface ContactRowProps {
 export default function ContactRow(props: ContactRowProps) {
   const [hover, setHover] = createSignal(false);
 
-  const imgSrc = () => props.emergency && props.href && hover() ? props.imageAlert : props.image;
+  const imgSrc = () =>
+    props.emergency && props.href && hover() ? props.imageAlert : props.image;
   const linkTarget = props.target ? "_blank" : undefined;
 
   return (
