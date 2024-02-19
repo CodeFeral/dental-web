@@ -8,8 +8,11 @@ export default function ContactSection() {
     <section class={styles.section}>
       <div class={styles.container}>
         <div class={styles.content}>
-          <Contact />
-          <Form />
+          <div class={styles.group}>
+            <Contact />
+            <Form />
+          </div>
+
           <Map />
         </div>
       </div>

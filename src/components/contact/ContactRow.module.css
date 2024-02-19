@@ -29,3 +29,21 @@
 .description {
   font-size: var(--fm-normal);
 }
+
+@media screen and (min-width: 1000px) {
+  .image {
+    width: 36px;
+    height: 36px;
+
+    margin-left: 4px;
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: var(--fd-normal);
+  }
+
+  .description {
+    font-size: var(--fd-normal);
+  }
+}

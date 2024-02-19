@@ -1,23 +1,20 @@
 .container {
-  width: min(100%, 800px);
-  height: auto;
-
-  margin: auto;
+  min-width: 280px;
+  width: 100%;
 }
 
 .content {
-  height: 450px;
+  min-height: 400px;
+  height: 60vh;
 
-  margin: 10px;
-  border: 1px solid var(--color-gray-border);
+  margin: 20px;
   border-radius: 8px;
-  padding: 6px;
+  padding: 10px;
 
-  background-color: var(--color-white);
+  background-color: #ffffff;
 }
 
 .holder iframe {
-
   position: absolute;
   top: 0;
   left: 0;
