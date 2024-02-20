@@ -48,7 +48,7 @@
   font-size: var(--fm-normal);
 }
 
-.welcome button {
+.button {
   margin: 10px auto;
   width: 160px;
 }
@@ -84,7 +84,7 @@
     max-width: 360px;
   }
 
-  .welcome button {
+  .button {
     margin: 10px 0;
     font-size: var(--fm-larger);
   }
@@ -100,7 +100,7 @@
     max-width: 400px;
   }
 
-  .welcome button {
+  .button {
     font-size: var(--fd-normal);
   }
 }

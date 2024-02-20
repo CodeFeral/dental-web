@@ -12,9 +12,12 @@ export default function LandingSection() {
               Dental Excellence
             </h1>
             <p>
-              Experience dental care designed just for you. Direct, straight to the point medical service.
+              Experience dental care designed just for you. Direct, straight to
+              the point medical service.
             </p>
-            <button class="button">Contact Us</button>
+            <a class={`${styles.button} button`} href="#contact-section">
+              Contact Us
+            </a>
           </div>
         </div>
 

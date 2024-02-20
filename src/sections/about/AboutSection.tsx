@@ -16,7 +16,10 @@ export default function AboutSection() {
           />
 
           <div class={styles.image}>
-            <img src="../../../public/georgi-transparent.png" alt="Dr. Georgi Bagdatov" />
+            <img
+              src="../../../public/georgi-transparent.png"
+              alt="Dr. Georgi Bagdatov"
+            />
           </div>
 
           <p class={styles.quote}>
@@ -46,7 +49,9 @@ export default function AboutSection() {
             />
           </div>
 
-          <button class={`${styles.button} button`}>Contact Me</button>
+          <a class={`${styles.button} button`} href="#contact-section">
+            Contact Me
+          </a>
         </div>
       </div>
     </section>
