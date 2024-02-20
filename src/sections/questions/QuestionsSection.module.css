@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 0;
+
+  background-color: var(--c-2L);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  min-width: 280px;
+  width: 100%;
+  max-width: 600px;
+
+  margin: 20px;
+}

@@ -48,11 +48,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.bold {
-  font-family: "Satoshi", sans-serif;
-  font-weight: bold;
-}
-
 body {
   min-width: 320px;
   min-height: 100vh;
@@ -95,10 +90,15 @@ body {
 }
 
 .disable-selection {
-  user-select: none;
-  -moz-user-select: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
   -ms-user-select: none;
+  user-select: none;
+}
+
+.bold {
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
 }
 
 .color-blue {

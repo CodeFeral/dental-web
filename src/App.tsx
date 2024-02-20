@@ -3,6 +3,7 @@ import ServiceSection from "./sections/services/ServiceSection";
 import AboutSection from "./sections/about/AboutSection";
 import TestimonialsSection from "./sections/testimonials/TestimonialsSection";
 import ContactSection from "./sections/contact/ContactSection";
+import QuestionsSection from "./sections/questions/QuestionsSection";
 
 import "./styles/reset.css";
 import "./styles/style.css";
@@ -13,6 +14,7 @@ function App() {
       <LandingSection />
       <ServiceSection />
       <AboutSection />
+      <QuestionsSection />
       <TestimonialsSection />
       <ContactSection />
     </>
@@ -21,11 +23,9 @@ function App() {
 
 export default App;
 
-// FAQ
+// Cleanup
 
-// Everything should fit 1200px width.
-
-// check and disable mobile horizontal overflows
+// Check and disable mobile horizontal overflows
 
 // SEO stuff, check tags, reduce <div> if necessary.
 
