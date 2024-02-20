@@ -29,7 +29,8 @@
 .info {
   text-align: center;
   font-style: italic;
-  font-size: var(--fm-normal);
+  font-size: var(--fm-small);
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 1000px) {
@@ -47,6 +48,6 @@
   }
 
   .info {
-    font-size: var(--fd-normal);
+    font-size: var(--fd-small);
   }
 }

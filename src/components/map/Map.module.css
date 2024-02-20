@@ -9,6 +9,7 @@
   height: 60vh;
 
   margin: 20px;
+  border: 1px solid var(--c-border);
   border-radius: 8px;
   padding: 10px;
 
@@ -25,7 +26,6 @@
 }
 
 .holder {
-
   position: relative;
 
   width: 100%;

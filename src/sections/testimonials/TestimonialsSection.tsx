@@ -9,9 +9,8 @@ export default function TestimonialsSection() {
         <Narrative
           title="Testimonials"
           heading="What Our Clients Say"
-          description="Hear from our satisfied clients about their experiences at our
-            clinic. Our testimonials reflect our commitment to excellence in
-            patient care, quality treatments, and outstanding customer service."
+          description="Our testimonials reflect our commitment to excellence in
+            patient care, quality treatments, and customer service."
         />
 
         <div class={styles.content}>
@@ -30,7 +29,7 @@ export default function TestimonialsSection() {
 
           <Testimonial
             name="Desislava Petrova"
-            review="Went to Dr. Georgi for a second opinion and ended up staying with him. His approach to dental care is practical and straightforward."
+            review="I went there for a second opinion and ended up staying. The approach to dental care is practical and straightforward."
             picture="../../../public/reviews/desi.png"
             link="https://www.instagram.com/this_is_lava/"
           />

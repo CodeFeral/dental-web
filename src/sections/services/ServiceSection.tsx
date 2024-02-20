@@ -9,9 +9,8 @@ export default function ServiceSection() {
         <Narrative
           title="Services"
           heading="What Services We Offer"
-          description="At our clinic, we offer a comprehensive range of services to help you
-            achieve optimal oral health, including preventive care, restorative
-            treatments, cosmetic procedures, and more."
+          description="We offer a comprehensive range of services to help you
+            achieve optimal oral health and well-being."
         />
 
         <div class={styles.content}>

@@ -13,6 +13,7 @@ function App() {
     <>
       <LandingSection />
       <ServiceSection />
+      <QuestionsSection />
       <AboutSection />
       <QuestionsSection />
       <TestimonialsSection />
@@ -23,7 +24,13 @@ function App() {
 
 export default App;
 
+// Either better pitch (link), or problems with svgs => solutions
+
+// Curved bezier section separators (like Yuroslav, link)
+
 // Cleanup
+
+// Mobile section spacing
 
 // Check and disable mobile horizontal overflows
 

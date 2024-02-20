@@ -5,10 +5,11 @@
   width: 100%;
 
   border: 1px solid var(--c-gray);
+  border: 1px solid #9f9f9f;
   border-radius: 6px;
   padding: 10px;
 
-  background-color: #fff;
+  background-color: #ffffff;
   cursor: pointer;
 
   font-size: var(--fm-normal);
@@ -27,27 +28,32 @@
 
 .rotate {
   rotate: 180deg;
-  transition-duration: 100ms;
+  transition-duration: 260ms;
 }
 
 .unrotate {
   rotate: 0deg;
-  transition-duration: 100ms;
+  transition-duration: 260ms;
 }
 
 .answer {
   overflow: hidden;
-  transition-duration: 100ms;
+  transition-duration: 260ms;
+  filter: opacity(0);
 }
 
 .closed {
   max-height: 0;
+
+  filter: opacity(0);
 }
 
 .open {
   max-height: 1000px;
 
   margin-top: 20px;
+
+  filter: opacity(100%);
 }
 
 @media screen and (min-width: 1000px) {
