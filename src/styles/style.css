@@ -44,6 +44,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bold {
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
