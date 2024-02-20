@@ -1,10 +1,10 @@
 import Narrative from "../../components/narrative/Narrative";
 import Stat from "../../components/stats/Stat";
-import styles from "./About.module.css";
+import styles from "./AboutSection.module.css";
 
 export default function AboutSection() {
   return (
-    <section class={styles.section}>
+    <section id="about-section" class={styles.section}>
       <div class={styles.container}>
         <div class={styles.content}>
           <Narrative

@@ -1,11 +1,11 @@
 import Contact from "../../components/contact/Contact";
 import Form from "../../components/form/Form";
 import Map from "../../components/map/Map";
-import styles from "./Contact.module.css";
+import styles from "./ContactSection.module.css";
 
 export default function ContactSection() {
   return (
-    <section class={styles.section}>
+    <section id="contact-section" class={styles.section}>
       <div class={styles.container}>
         <div class={styles.content}>
           <div class={styles.group}>

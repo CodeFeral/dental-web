@@ -1,11 +1,10 @@
 import Narrative from "../../components/narrative/Narrative";
 import Testimonial from "../../components/testimonial/Testimonial";
-
-import styles from "./Testimonials.module.css";
+import styles from "./TestimonialsSection.module.css";
 
 export default function TestimonialsSection() {
   return (
-    <section class={styles.section}>
+    <section id="testimonials-section" class={styles.section}>
       <div class={styles.container}>
         <Narrative
           title="Testimonials"

@@ -17,8 +17,8 @@ export default function Service(props: ServiceProps) {
           <h2 class={`${styles.title} bold`}>{props.title}</h2>
           <p class={styles.description}>{props.description}</p>
         </div>
-        <a class={styles.more} href={props.href}>
-          <p>Read more</p>
+        <a class={styles.more} href="#contact-section">
+          <p>More info</p>
           <img src="../../../public/arrow.svg" />
         </a>
       </div>

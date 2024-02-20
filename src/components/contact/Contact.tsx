@@ -11,14 +11,14 @@ export default function Contact() {
         description="+359 885 691 021"
         href="tel:0885691021"
       />
-
       <ContactRow
-        title="Open Hours"
-        image="../../../public/contact/clock.svg"
-        imageAlt="clock"
-        description="09:00 - 21:00"
+        title="Email"
+        image="../../../public/contact/email.svg"
+        imageAlt="email"
+        description="g.bagdatov@gmail.com"
+        href="mailto:g.bagdatov@gmail.com"
+        target
       />
-
       <ContactRow
         title="Clinic Address"
         image="../../../public/contact/location.svg"
@@ -27,15 +27,11 @@ export default function Contact() {
         href="https://maps.app.goo.gl/AbfHVwvSV4ob8fFy5"
         target
       />
-
       <ContactRow
-        title="Emergency"
-        image="../../../public/contact/alarm.svg"
-        imageAlert="../../../public/contact/alarm-red.svg"
-        imageAlt="emergency"
-        description="24/7 Emergency Support"
-        emergency
-        href="tel:0885691021"
+        title="Open Hours"
+        image="../../../public/contact/clock.svg"
+        imageAlt="clock"
+        description="09:00 - 21:00"
       />
     </div>
   );

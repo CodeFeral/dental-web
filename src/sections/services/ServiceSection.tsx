@@ -1,10 +1,10 @@
 import Narrative from "../../components/narrative/Narrative";
 import Service from "../../components/services/Service";
-import styles from "./Service.module.css";
+import styles from "./ServiceSection.module.css";
 
 export default function ServiceSection() {
   return (
-    <section class={styles.section}>
+    <section id="service-section" class={styles.section}>
       <div class={styles.container}>
         <Narrative
           title="Services"

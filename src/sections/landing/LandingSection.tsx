@@ -1,8 +1,8 @@
-import styles from "./Landing.module.css";
+import styles from "./LandingSection.module.css";
 
 export default function LandingSection() {
   return (
-    <section class={styles.section}>
+    <section id="landing-section" class={styles.section}>
       <div class={styles.content}>
         <div class={styles.group}>
           <div class={styles.welcome}>

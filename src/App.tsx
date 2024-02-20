@@ -1,9 +1,8 @@
-import LandingSection from "./sections/landing/Landing";
-import ServiceSection from "./sections/services/Service";
-import AboutSection from "./sections/about/About";
-import PitchSection from "./sections/pitch/Pitch";
-import TestimonialsSection from "./sections/testimonials/Testimonials";
-import ContactSection from "./sections/contact/Contact";
+import LandingSection from "./sections/landing/LandingSection";
+import ServiceSection from "./sections/services/ServiceSection";
+import AboutSection from "./sections/about/AboutSection";
+import TestimonialsSection from "./sections/testimonials/TestimonialsSection";
+import ContactSection from "./sections/contact/ContactSection";
 
 import "./styles/reset.css";
 import "./styles/style.css";
@@ -13,7 +12,6 @@ function App() {
     <>
       <LandingSection />
       <ServiceSection />
-      <PitchSection />
       <AboutSection />
       <TestimonialsSection />
       <ContactSection />
@@ -22,6 +20,8 @@ function App() {
 }
 
 export default App;
+
+// FAQ
 
 // Everything should fit 1200px width.
 
