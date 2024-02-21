@@ -27,18 +27,22 @@ function App() {
 
 export default App;
 
+// Menu
+//
+// Reveal toggle instead of button
+//
 // Landing Animation
-
+//
 // Cleanup
-
+//
 // Spacing patch (Mobile too)
-
+//
 // Check and disable mobile horizontal overflows
-
+//
 // SEO stuff, check tags, reduce <div> if necessary.
-
+//
 // Ioan different pic
-
+//
 // Performance Considerations: For larger components or sections that might
 // not be immediately visible, consider using lazy loading to improve initial
 // load times. Solid.js supports lazy loading out of the box with lazy from solid-js.

@@ -22,10 +22,6 @@ export default function QuestionsSection() {
             answer="It is recommended to visit the dentist for check-ups and cleanings at least twice a year. However, depending on your specific oral health needs, we may recommend more frequent visits."
           />
           <Question
-            question="Is flossing really important?"
-            answer="Yes, flossing is crucial as it removes plaque and food particles from between the teeth and under the gum line, areas where a toothbrush can't reach. Daily flossing is essential for maintaining healthy gums."
-          />
-          <Question
             question="How can I prevent gum disease?"
             answer="Preventing gum disease involves maintaining good oral hygiene practices, including brushing twice a day, flossing daily, and regular dental check-ups and cleanings. Lifestyle choices, such as a balanced diet and quitting smoking, also play a crucial role."
           />
@@ -40,6 +36,10 @@ export default function QuestionsSection() {
           <Question
             question="How do I know if I need braces?"
             answer="Signs you might need braces include crowded or crooked teeth, gaps between teeth, and difficulty biting or chewing. An orthodontic consultation can determine if braces are right for you."
+          />
+          <Question
+            question="Is flossing really important?"
+            answer="Yes, flossing is crucial as it removes plaque and food particles from between the teeth and under the gum line, areas where a toothbrush can't reach. Daily flossing is essential for maintaining healthy gums."
           />
           <Question
             question="What is cosmetic dentistry, and what options are available?"
