@@ -32,6 +32,10 @@
   transition-duration: 200ms;
 }
 
+.link:hover {
+  color: var(--c-2);
+}
+
 @media screen and (min-width: 1000px) {
   .image {
     width: 36px;

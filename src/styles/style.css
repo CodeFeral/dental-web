@@ -3,20 +3,11 @@
 /* min-width: 1000px */
 
 :root {
-  --c-black: #10193a;
   --c-gray: #5e6786;
-  --c-shade: #f1f4ff;
-  --c-white: #f8f9ff;
-  --c-white2: #f5f6fc;
   --c-border: #dcdcdc;
-  --c-1: #46b8aa;
+  --c-1: #3CAA9D;
   --c-1L: #c4eae6;
   --c-2: #ff8e4f;
-  --c-2L: #ffe4d6;
-  --c-red: #ff1010;
-
-  /* --c-1L: #dbeffa; */
-  /* --c-1: #34c2cb; */
 
   --fm-small: 12px;
   --fm-normal: 14px;
@@ -35,8 +26,6 @@
   --f-huge3: 50px;
 
   --transition: 200ms;
-  --box-shadow: 0 0 30px rgba(0, 128, 128, 0.1);
-  --box-shadow2: 0 0 30px rgba(0, 128, 128, 0.2);
 }
 
 @font-face {
@@ -103,20 +92,4 @@ body {
 .bold {
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
-}
-
-.color-blue {
-  color: var(--c-1);
-}
-
-.color-orange {
-  color: var(--c-2);
-}
-
-.color-red {
-  color: var(--c-red);
-}
-
-.hover-orange {
-  text-shadow: 0 0 4px var(--c-2);
 }
