@@ -5,7 +5,7 @@ import styles from "./QuestionsSection.module.css";
 export default function QuestionsSection() {
   return (
     <section id="questions-section" class={styles.section}>
-      <Wave blue={true} top={true} />
+      <Wave top={true} />
 
       <div class={styles.container}>
         <div class={styles.content}>
@@ -60,7 +60,7 @@ export default function QuestionsSection() {
         </div>
       </div>
 
-      <Wave blue={true} top={false} />
+      <Wave top={false} />
     </section>
   );
 }

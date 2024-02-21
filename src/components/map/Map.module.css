@@ -1,12 +1,12 @@
 .container {
   min-width: 280px;
   width: 100%;
-  max-width: 900px;
+  max-width: 730px;
 }
 
 .content {
   min-height: 400px;
-  height: 60vh;
+  height: 50vh;
 
   margin: 20px;
   border: 1px solid var(--c-border);

@@ -6,21 +6,23 @@ import styles from "./ContactSection.module.css";
 
 export default function ContactSection() {
   return (
-    <section id="contact-section" class={styles.section}>
-      <Wave blue={true} top={true} />
+    <>
+      <Wave top={true} />
 
-      <div class={styles.container}>
-        <div class={styles.content}>
-          <div class={styles.group}>
-            <Contact />
-            <Form />
+      <section id="contact-section" class={styles.section}>
+        <div class={styles.container}>
+          <div class={styles.content}>
+            <div class={styles.group}>
+              <Contact />
+              <Form />
+            </div>
+
+            <Map />
           </div>
-
-          <Map />
         </div>
-      </div>
+      </section>
 
-      <Wave blue={true} top={false} />
-    </section>
+      <Wave top={false} />
+    </>
   );
 }

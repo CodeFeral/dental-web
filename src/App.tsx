@@ -27,13 +27,11 @@ function App() {
 
 export default App;
 
-// Either better pitch (link), or problems with svgs => solutions
-
-// Curved bezier section separators (like Yuroslav, link)
+// Landing Animation
 
 // Cleanup
 
-// Mobile section spacing
+// Spacing patch (Mobile too)
 
 // Check and disable mobile horizontal overflows
 

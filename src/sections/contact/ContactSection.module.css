@@ -2,7 +2,8 @@
 .container {
   background-color: var(--c-1L);
 
-  padding: 40px 0;
+  /* border: 1px solid #000; */
+  padding: 20px 0;
 }
 
 .content {
@@ -22,13 +23,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 
   width: fit-content;
 }
 
 @media screen and (min-width: 1000px) {
   .container {
-    padding: 60px 0;
+    padding: 20px 0;
   }
 
   .content {

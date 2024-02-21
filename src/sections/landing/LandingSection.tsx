@@ -25,7 +25,7 @@ export default function LandingSection() {
           <div class={styles.visual}>
             <img
               class={styles.image}
-              src="../../public/tooth.svg"
+              src="../../../public/logo.png"
               alt="tooth"
             />
           </div>

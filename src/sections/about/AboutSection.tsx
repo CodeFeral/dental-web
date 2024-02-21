@@ -30,19 +30,19 @@ export default function AboutSection() {
 
             <div class={styles.stats}>
               <Stat
-                image="../../../public/stats/medal-blue.svg"
+                image="../../../public/stats/medal.svg"
                 imageAlt="medals"
                 value="4k+"
                 info="Treatments"
               />
               <Stat
-                image="../../../public/stats/heart-blue.svg"
+                image="../../../public/stats/heart.svg"
                 imageAlt="hearts"
                 value="3k+"
                 info="Customers"
               />
               <Stat
-                image="../../../public/stats/layer-blue.svg"
+                image="../../../public/stats/layer.svg"
                 imageAlt="layers"
                 value="7k+"
                 info="Work Hours"

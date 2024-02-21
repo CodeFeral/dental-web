@@ -32,7 +32,7 @@ export default function AfterSection() {
 
   return (
     <section id="after-section" class={styles.section}>
-      <Wave blue={false} top={true} />
+      <Wave top={true} />
 
       <div class={styles.container}>
         <div class={styles.content}>
@@ -101,7 +101,7 @@ export default function AfterSection() {
         </div>
       </div>
 
-      <Wave blue={false} top={false} />
+      <Wave top={false} />
     </section>
   );
 }
