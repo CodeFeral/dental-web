@@ -102,6 +102,15 @@ body {
   font-weight: bold;
 }
 
+.wave {
+  width: 100%;
+}
+
+.wave img {
+  height: 100px;
+  width: 100%;
+}
+
 .color-blue {
   color: var(--c-1);
 }

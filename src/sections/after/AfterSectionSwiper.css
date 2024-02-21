@@ -1,0 +1,30 @@
+.swiper {
+  min-width: 280px;
+  max-width: 1200px;
+  width: 100%;
+
+  padding: 6px;
+  border-radius: 10px;
+
+  background-color: var(--c-2L);
+  background-color: #fff;
+}
+
+.swiper-slide {
+  width: auto;
+  width: fit-content;
+  margin: auto;
+}
+
+.swiper-pagination {
+  position: relative;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--c-2);
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}

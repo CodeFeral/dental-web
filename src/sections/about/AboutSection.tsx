@@ -49,8 +49,6 @@ export default function AboutSection() {
               />
             </div>
 
-            <div class={styles.certificates}></div>
-
             <a class={`${styles.button} button`} href="#contact-section">
               Contact Me
             </a>

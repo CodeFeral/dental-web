@@ -14,8 +14,8 @@
 .content {
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
-  flex-direction: row-reverse;
+  flex-direction: column;
+  /* flex-direction: row-reverse; */
   flex-wrap: wrap;
   gap: 10px;
 
@@ -37,8 +37,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  justify-content: end;
+  justify-content: center;
+  /* justify-content: end; */
   gap: 20px;
 
   min-width: 280px;
@@ -72,6 +72,7 @@
 
 .button {
   width: 160px;
+  margin: 4px;
   font-size: var(--fm-normal);
 }
 
@@ -82,7 +83,7 @@
   }
 
   .image {
-    max-width: 460px;
+    max-width: 400px;
   }
 
   .quote {
@@ -92,5 +93,6 @@
 
   .button {
     font-size: var(--fd-normal);
+    margin: 6px;
   }
 }
