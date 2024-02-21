@@ -5,6 +5,7 @@ import AboutSection from "./sections/about/AboutSection";
 import TestimonialsSection from "./sections/testimonials/TestimonialsSection";
 import AfterSection from "./sections/after/AfterSection";
 import ContactSection from "./sections/contact/ContactSection";
+import FooterSection from "./sections/footer/Footer";
 
 import "./styles/reset.css";
 import "./styles/style.css";
@@ -19,6 +20,7 @@ function App() {
       <AfterSection />
       <TestimonialsSection />
       <ContactSection />
+      <FooterSection />
     </>
   );
 }
