@@ -1,14 +1,13 @@
 import Contact from "../../components/contact/Contact";
 import Form from "../../components/form/Form";
 import Map from "../../components/map/Map";
+import Wave from "../../components/wave/Wave";
 import styles from "./ContactSection.module.css";
 
 export default function ContactSection() {
   return (
     <section id="contact-section" class={styles.section}>
-      <div class="wave">
-        <img src="../../../public/waves/top-1.svg" />
-      </div>
+      <Wave blue={true} top={true} />
 
       <div class={styles.container}>
         <div class={styles.content}>
@@ -21,9 +20,7 @@ export default function ContactSection() {
         </div>
       </div>
 
-      <div class="wave">
-        <img src="../../../public/waves/bot-1.svg" />
-      </div>
+      <Wave blue={true} top={false} />
     </section>
   );
 }

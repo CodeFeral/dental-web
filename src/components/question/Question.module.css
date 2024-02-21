@@ -15,6 +15,10 @@
   font-size: var(--fm-normal);
 }
 
+.container:hover {
+  outline: 1px solid var(--c-gray);
+}
+
 .question {
   display: flex;
   justify-content: space-between;
@@ -28,17 +32,18 @@
 
 .rotate {
   rotate: 180deg;
-  transition-duration: 260ms;
+  transition-duration: var(--transition);
 }
 
 .unrotate {
   rotate: 0deg;
-  transition-duration: 260ms;
+  transition-duration: var(--transition);
 }
 
 .answer {
   overflow: hidden;
-  transition-duration: 260ms;
+  transition-duration: var(--transition);
+  transition-timing-function: ease;
   filter: opacity(0);
 }
 

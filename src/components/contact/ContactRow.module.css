@@ -28,6 +28,8 @@
 
 .description {
   font-size: var(--fm-normal);
+
+  transition-duration: 200ms;
 }
 
 @media screen and (min-width: 1000px) {

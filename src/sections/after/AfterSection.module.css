@@ -37,6 +37,8 @@
   max-width: 280px;
 
   transition-duration: 200ms;
+  border: 1px solid var(--c-gray);
+  border-radius: 6px;
 }
 
 .button {
@@ -44,7 +46,7 @@
 }
 
 .hide {
-  filter: grayscale(100%) opacity(10%) blur(1px);
+  filter: grayscale(100%) opacity(10%) blur(2px);
   transition-duration: 200ms;
 }
 

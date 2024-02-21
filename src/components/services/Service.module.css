@@ -12,6 +12,7 @@
 
   border-radius: 7px;
   padding: 10px;
+  transition-duration: var(--transition);
 }
 
 .container:hover {
@@ -52,6 +53,7 @@
   width: fit-content;
 
   color: var(--c-2);
+  transition-duration: var(--transition);
 }
 
 .more:hover {

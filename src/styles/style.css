@@ -31,7 +31,7 @@
   --f-huge2: 40px;
   --f-huge3: 50px;
 
-  --transition-duration-button: 120ms;
+  --transition: 200ms;
   --box-shadow: 0 0 30px rgba(0, 128, 128, 0.1);
   --box-shadow2: 0 0 30px rgba(0, 128, 128, 0.2);
 }
@@ -81,10 +81,10 @@ body {
   text-align: center;
 
   background-color: var(--c-2);
+  transition-duration: var(--transition);
 }
 
 .button:hover {
-  transition-duration: var(--transition-duration-button);
   background-color: #ffffff;
   border-color: var(--c-2);
   color: var(--c-2);
@@ -100,15 +100,6 @@ body {
 .bold {
   font-family: "Satoshi", sans-serif;
   font-weight: bold;
-}
-
-.wave {
-  width: 100%;
-}
-
-.wave img {
-  height: 100px;
-  width: 100%;
 }
 
 .color-blue {

@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import "./AfterSectionSwiper.css";
+import Wave from "../../components/wave/Wave";
 
 export default function AfterSection() {
   const [reveal, setReveal] = createSignal(false);
@@ -31,9 +32,7 @@ export default function AfterSection() {
 
   return (
     <section id="after-section" class={styles.section}>
-      <div class="wave">
-        <img src="../../../public/waves/top-2.svg" />
-      </div>
+      <Wave blue={false} top={true} />
 
       <div class={styles.container}>
         <div class={styles.content}>
@@ -102,9 +101,7 @@ export default function AfterSection() {
         </div>
       </div>
 
-      <div class="wave">
-        <img src="../../../public/waves/bot-2.svg" />
-      </div>
+      <Wave blue={false} top={false} />
     </section>
   );
 }

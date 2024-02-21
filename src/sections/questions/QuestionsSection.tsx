@@ -1,12 +1,11 @@
 import Question from "../../components/question/Question";
+import Wave from "../../components/wave/Wave";
 import styles from "./QuestionsSection.module.css";
 
 export default function QuestionsSection() {
   return (
     <section id="questions-section" class={styles.section}>
-      <div class="wave">
-        <img src="../../../public/waves/top-1.svg" />
-      </div>
+      <Wave blue={true} top={true} />
 
       <div class={styles.container}>
         <div class={styles.content}>
@@ -61,9 +60,7 @@ export default function QuestionsSection() {
         </div>
       </div>
 
-      <div class="wave">
-        <img src="../../../public/waves/bot-1.svg" />
-      </div>
+      <Wave blue={true} top={false} />
     </section>
   );
 }
