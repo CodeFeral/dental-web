@@ -1,0 +1,85 @@
+.container {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 44px;
+  background-color: #fff;
+  border-bottom: 1px solid var(--c-gray);
+}
+
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 100px;
+
+  background-color: #fff;
+  font-size: var(--fm-larger);
+  transition-duration: var(--transition);
+}
+
+.toggle {
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: fit-content;
+  height: fit-content;
+  padding: 6px;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition-duration: 200ms;
+}
+
+.toggle.active {
+  transform: rotate(90deg);
+  transition-duration: 200ms;
+}
+
+.toggle-icon {
+  width: 30px;
+  height: 4px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: var(--c-gray);
+}
+
+.show {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.link {
+  text-align: center;
+  padding: 20px;
+  width: 90%;
+  transition-duration: var(--transition);
+}
+
+.link:hover {
+  color: var(--c-2);
+  transition-duration: var(--transition);
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    font-size: var(--fd-normal);
+  }
+}

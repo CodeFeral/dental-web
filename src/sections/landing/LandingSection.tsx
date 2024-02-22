@@ -23,11 +23,7 @@ export default function LandingSection() {
 
         <div class={styles.group}>
           <div class={styles.visual}>
-            <img
-              class={styles.image}
-              src="../../../public/logo.png"
-              alt="tooth"
-            />
+            <img class={styles.image} src="../../../public/logo.png" />
           </div>
         </div>
       </div>
