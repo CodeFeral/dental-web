@@ -1,4 +1,5 @@
 .container {
+  display: flex;
   z-index: 1000;
   position: fixed;
   top: 0;
@@ -24,6 +25,16 @@
   background-color: #fff;
   font-size: var(--fm-larger);
   transition-duration: var(--transition);
+
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.show {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
 }
 
 .toggle {
@@ -54,18 +65,6 @@
   background-color: var(--c-gray);
 }
 
-.show {
-  opacity: 1;
-  pointer-events: all;
-  visibility: visible;
-}
-
-.hide {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-
 .link {
   text-align: center;
   padding: 20px;
@@ -76,6 +75,35 @@
 .link:hover {
   color: var(--c-2);
   transition-duration: var(--transition);
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: fit-content;
+    height: 100%;
+
+    padding: 0;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+
+  .link {}
+
+  .toggle {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1000px) {

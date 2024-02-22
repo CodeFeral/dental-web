@@ -24,43 +24,42 @@ export default function Navigation() {
         classList={{
           [styles.content]: true,
           [styles.show]: show(),
-          [styles.hide]: !show(),
         }}
       >
         <Link
           name="Home"
           href="#landing-section"
-          callback={() => setShow(false)}
+          handleClick={() => setShow(false)}
         />
         <Link
           name="Services"
           href="#service-section"
-          callback={() => setShow(false)}
+          handleClick={() => setShow(false)}
         />
         <Link
           name="FAQ"
           href="#questions-section"
-          callback={() => setShow(false)}
+          handleClick={() => setShow(false)}
         />
         <Link
           name="About"
           href="#about-section"
-          callback={() => setShow(false)}
+          handleClick={() => setShow(false)}
         />
         <Link
-          name={"Before & After"}
-          href="#after-section"
-          callback={() => setShow(false)}
+          name={"Solutions"}
+          href="#solutions-section"
+          handleClick={() => setShow(false)}
         />
         <Link
           name="Testimonials"
           href="#testimonials-section"
-          callback={() => setShow(false)}
+          handleClick={() => setShow(false)}
         />
         <Link
           name="Contact"
           href="#contact-section"
-          callback={() => setShow(false)}
+          handleClick={() => setShow(false)}
         />
       </div>
     </nav>
@@ -70,12 +69,12 @@ export default function Navigation() {
 interface LinkProps {
   name: string;
   href: string;
-  callback: () => void;
+  handleClick: () => void;
 }
 
 function Link(props: LinkProps) {
   return (
-    <a class={styles.link} href={props.href} onclick={() => props.callback()}>
+    <a class={styles.link} href={props.href} onclick={() => props.handleClick()}>
       {props.name}
     </a>
   );

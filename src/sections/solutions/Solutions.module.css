@@ -1,5 +1,7 @@
 .section {
-  padding: 40px 0;
+  padding: var(--nav-below) 0;
+
+  background-color: var(--c-1L);
 }
 
 .container {
@@ -7,9 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  padding: 60px 0;
-  background-color: var(--c-1L);
 }
 
 .content {

@@ -1,8 +1,15 @@
-.container {
+.section {
   display: flex;
   justify-content: center;
 
-  padding: 40px 0;
+  padding: var(--nav-below);
+
+  background-color: var(--c-1L);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 
   background-color: var(--c-1L);
 }
@@ -19,4 +26,8 @@
   max-width: 600px;
 
   margin: 20px;
+}
+
+.wave {
+  max-height: 100px;
 }

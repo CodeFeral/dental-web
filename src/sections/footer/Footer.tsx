@@ -7,12 +7,12 @@ export default function FooterSection() {
         <a
           class={styles.content}
           href="https://www.linkedin.com/in/donitsonchev/"
+          target="_blank"
         >
           Hand-coded by Doni
           <img
             class={styles.image}
             src="../../../public/link-hover.svg"
-            alt="link"
           />
         </a>
       </div>

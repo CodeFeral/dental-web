@@ -5,7 +5,7 @@
 :root {
   --c-gray: #5e6786;
   --c-border: #dcdcdc;
-  --c-1: #3CAA9D;
+  --c-1: #3caa9d;
   --c-1L: #c4eae6;
   --c-2: #ff8e4f;
 
@@ -26,6 +26,9 @@
   --f-huge3: 50px;
 
   --transition: 200ms;
+
+  --nav-height: 44px;
+  --nav-below: 64px;
 }
 
 @font-face {

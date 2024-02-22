@@ -1,8 +1,7 @@
 .content {
   width: 100%;
   width: 100%;
-  height: min(10vw, 160px);
-  height: 10vw;
+  height: min(10vw, 140px);
 }
 
 .image {
