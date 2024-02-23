@@ -28,7 +28,3 @@ function App() {
 }
 
 export default App;
-
-// Cleanup
-
-// SEO stuff, check tags, reduce <div> if necessary.
