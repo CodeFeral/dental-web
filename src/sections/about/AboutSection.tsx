@@ -16,7 +16,7 @@ export default function AboutSection() {
         <div class={styles.content}>
           <div class={styles.image}>
             <img
-              src="../../../public/georgi-transparent.png"
+              src="/georgi.png"
               alt="Dr. Georgi Bagdatov"
             />
           </div>
@@ -30,19 +30,19 @@ export default function AboutSection() {
 
             <div class={styles.stats}>
               <Stat
-                image="../../../public/stats/medal.svg"
+                image="/stats-medal.svg"
                 imageAlt="medals"
                 value="4k+"
                 info="Treatments"
               />
               <Stat
-                image="../../../public/stats/heart.svg"
+                image="/stats-heart.svg"
                 imageAlt="hearts"
                 value="3k+"
                 info="Customers"
               />
               <Stat
-                image="../../../public/stats/layer.svg"
+                image="/stats-layer.svg"
                 imageAlt="layers"
                 value="7k+"
                 info="Work Hours"

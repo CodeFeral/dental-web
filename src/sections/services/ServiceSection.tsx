@@ -17,50 +17,42 @@ export default function ServiceSection() {
           <Service
             title="Aesthetics"
             description="Teeth whitening, Cosmetic build-ups (bonding), Veneers, and more."
-            image="../../../public/services/aesthetics.svg"
-            href="#"
+            image="/services-aesthetics.svg"
           />
           <Service
             title="Endodontics"
             description="Treating tooth pulp diseases and a variety of related complications."
-            image="../../../public/services/endodontics.svg"
-            href="#"
+            image="/services-endodontics.svg"
           />
           <Service
             title="Oral Surgery"
             description="Procedures like tooth and cyst removal, and wisdom tooth extraction."
-            image="../../../public/services/surgery.svg"
-            href="#"
+            image="/services-surgery.svg"
           />
           <Service
             title="Implantology"
             description="Titanium implants in edentulous areas to restore masticatory function."
-            image="../../../public/services/implantology.svg"
-            href="#"
+            image="/services-implantology.svg"
           />
           <Service
             title="Periodontology"
             description="Cleaning of tartar and control over the diseases of the gums."
-            image="../../../public/services/peridontology.svg"
-            href="#"
+            image="/services-peridontology.svg"
           />
           <Service
             title="Cariesology"
             description="Protection, treatment, and restoration of teeth damaged by caries."
-            image="../../../public/services/cariesology.svg"
-            href="#"
+            image="/services-cariesology.svg"
           />
           <Service
             title="Pediatric Dentistry"
             description="Careful and calm approach when working with children of all ages."
-            image="../../../public/services/pediatric.svg"
-            href="#"
+            image="/services-pediatric.svg"
           />
           <Service
             title="Consultation"
             description="Expert advice and tailored care plans for all dental health needs."
-            image="../../../public/services/consultation.svg"
-            href="#"
+            image="/services-consultation.svg"
           />
         </div>
       </div>

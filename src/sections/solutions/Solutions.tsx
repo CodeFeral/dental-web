@@ -55,42 +55,42 @@ export default function SolutionsSection() {
                 <div class="swiper-slide">
                   <img
                     class={styles.image}
-                    src="../../../public/solutions/1.png"
+                    src="/solutions-1.png"
                     loading="lazy"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class={styles.image}
-                    src="../../../public/solutions/2.png"
+                    src="/solutions-2.png"
                     loading="lazy"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class={styles.image}
-                    src="../../../public/solutions/3.png"
+                    src="/solutions-3.png"
                     loading="lazy"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class={styles.image}
-                    src="../../../public/solutions/4.png"
+                    src="/solutions-4.png"
                     loading="lazy"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class={styles.image}
-                    src="../../../public/solutions/5.png"
+                    src="/solutions-5.png"
                     loading="lazy"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class={styles.image}
-                    src="../../../public/solutions/6.png"
+                    src="/solutions-6.png"
                     loading="lazy"
                   />
                 </div>

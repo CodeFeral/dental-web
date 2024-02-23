@@ -12,7 +12,7 @@ export default function FooterSection() {
           Hand-coded by Doni
           <img
             class={styles.image}
-            src="../../../public/link-hover.svg"
+            src="/generic-link-hover.svg"
           />
         </a>
       </div>

@@ -4,7 +4,6 @@ interface ServiceProps {
   image: string;
   title: string;
   description: string;
-  href: string;
 }
 
 export default function Service(props: ServiceProps) {
@@ -19,7 +18,7 @@ export default function Service(props: ServiceProps) {
         </div>
         <a class={styles.more} href="#contact-section">
           <p>More info</p>
-          <img src="../../../public/arrow.svg" />
+          <img src="/generic-arrow.svg" />
         </a>
       </div>
     </div>

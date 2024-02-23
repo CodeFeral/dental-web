@@ -19,7 +19,7 @@ export default function Question(props: QuestionProps) {
             [styles.unrotate]: !show(),
             [styles.rotate]: show(),
           }}
-          src="../../../public/down.svg"
+          src="/generic-down.svg"
         />
       </div>
 

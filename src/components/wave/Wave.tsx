@@ -13,7 +13,7 @@ export default function Wave(props: WaveProps) {
     >
       <img
         class={styles.image}
-        src={`../../../public/waves/${props.top ? "top" : "bot"}.svg`}
+        src={`/waves-${props.top ? "top" : "bot"}.svg`}
       />
     </div>
   );

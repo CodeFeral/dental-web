@@ -31,9 +31,9 @@ export default function Testimonial(props: ReviewProps) {
                 <a href={props.link} target="_blank">
                   <Show
                     when={linkHover()}
-                    fallback={<img src="../../../public/link.svg" alt="link" />}
+                    fallback={<img src="/generic-link.svg" alt="link" />}
                   >
-                    <img src="../../../public/link-hover.svg" alt="link" />
+                    <img src="/generic-link-hover.svg" alt="link" />
                   </Show>
                 </a>
               </div>
@@ -43,27 +43,27 @@ export default function Testimonial(props: ReviewProps) {
           <div class={styles.stars}>
             <img
               class={styles.star}
-              src="../../../public/star.svg"
+              src="/generic-star.svg"
               alt="star"
             />
             <img
               class={styles.star}
-              src="../../../public/star.svg"
+              src="/generic-star.svg"
               alt="star"
             />
             <img
               class={styles.star}
-              src="../../../public/star.svg"
+              src="/generic-star.svg"
               alt="star"
             />
             <img
               class={styles.star}
-              src="../../../public/star.svg"
+              src="/generic-star.svg"
               alt="star"
             />
             <img
               class={styles.star}
-              src="../../../public/star.svg"
+              src="/generic-star.svg"
               alt="star"
             />
           </div>
