@@ -9,7 +9,7 @@ export default function Form() {
         action="https://www1.domain.com/scripts/formemail.html"
       >
         <div class={styles.content}>
-          <input type="hidden" name="my_email" value="doniadept@gmail.com" />
+          <input type="hidden" name="my_email" value="g.bagdatov@gmail.com" />
 
           <div class={styles.group}>
             <input

@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import "./SolutionsSwiper.css";
 import Wave from "../../components/wave/Wave";
+import Switch from "../../components/switch/Switch";
 
 export default function SolutionsSection() {
   const [reveal, setReveal] = createSignal(false);
@@ -41,12 +42,10 @@ export default function SolutionsSection() {
               <p>Don't worry. We have the solutions.</p>
             </div>
 
-            <div
-              class={`button ${styles.button}`}
-              onclick={() => setReveal(!reveal())}
-            >
-              {reveal() ? "Hide" : "Reveal"}
-            </div>
+            <Switch
+              checked={reveal()}
+              handleClick={() => setReveal(!reveal())}
+            />
 
             <div
               class={`swiper ${reveal() ? styles.reveal : styles.hide}`}
